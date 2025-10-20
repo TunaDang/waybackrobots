@@ -1,0 +1,889 @@
+[
+  {
+    "timestamp": "20250318161526",
+    "initial_content": [
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-CloudVertexBot",
+        "allow": {
+          "added": [
+            "https://nytimes.com/wirecutter/"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Quora-Bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "YouBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://nytimes.com/ads/public/",
+            "https://nytimes.com/athletic/checkout/$",
+            "https://nytimes.com/athletic/forgot-password/$",
+            "https://nytimes.com/athletic/forgot-password2/$",
+            "https://nytimes.com/athletic/login/$",
+            "https://nytimes.com/athletic/login2/$",
+            "https://nytimes.com/athletic/search/$",
+            "https://nytimes.com/athletic/wp/wp-admin/admin-ajax.php",
+            "https://nytimes.com/svc/crosswords",
+            "https://nytimes.com/svc/games",
+            "https://nytimes.com/svc/letter-boxed",
+            "https://nytimes.com/svc/news/v3/all/pshb.rss",
+            "https://nytimes.com/svc/spelling-bee",
+            "https://nytimes.com/svc/vertex",
+            "https://nytimes.com/svc/wordle",
+            "https://nytimes.com/wirecutter/*?*utm_source="
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://nytimes.com/*.pdf$",
+            "https://nytimes.com/*?*\u0026ls=",
+            "https://nytimes.com/*?*ListingID=",
+            "https://nytimes.com/*?*ProfileID=",
+            "https://nytimes.com/*?*campaignId=",
+            "https://nytimes.com/*?*campaign_id=",
+            "https://nytimes.com/*?*embed=",
+            "https://nytimes.com/*?*entry=",
+            "https://nytimes.com/*?*hybrid=",
+            "https://nytimes.com/*?*login=",
+            "https://nytimes.com/*?*mcubz=",
+            "https://nytimes.com/*?*partner=",
+            "https://nytimes.com/*?*query=",
+            "https://nytimes.com/*?*searchResultPosition=",
+            "https://nytimes.com/*?*smid=",
+            "https://nytimes.com/*?*smprod=",
+            "https://nytimes.com/*?*utm_source=",
+            "https://nytimes.com/*?ls=",
+            "https://nytimes.com/ads/",
+            "https://nytimes.com/adx/bin/",
+            "https://nytimes.com/athletic*/boxscore/*",
+            "https://nytimes.com/athletic*/signed-mp3-redirect-url/*",
+            "https://nytimes.com/athletic/*/discuss/*",
+            "https://nytimes.com/athletic/*?*rss=1",
+            "https://nytimes.com/athletic/amp-auth/",
+            "https://nytimes.com/athletic/amp-social-login*",
+            "https://nytimes.com/athletic/api*",
+            "https://nytimes.com/athletic/async-*",
+            "https://nytimes.com/athletic/betmgm-redirect*",
+            "https://nytimes.com/athletic/call-set-cookie-with-context/*",
+            "https://nytimes.com/athletic/cdn-cgi/",
+            "https://nytimes.com/athletic/checkout/",
+            "https://nytimes.com/athletic/checkout2*",
+            "https://nytimes.com/athletic/checkout?plan_id*",
+            "https://nytimes.com/athletic/feed-test/",
+            "https://nytimes.com/athletic/following-feed-test/*",
+            "https://nytimes.com/athletic/forgot-password/*",
+            "https://nytimes.com/athletic/forgot-password2/*",
+            "https://nytimes.com/athletic/get-current-user/",
+            "https://nytimes.com/athletic/global-color-test.php",
+            "https://nytimes.com/athletic/global-font-test.php",
+            "https://nytimes.com/athletic/graphql*",
+            "https://nytimes.com/athletic/ip*",
+            "https://nytimes.com/athletic/login/",
+            "https://nytimes.com/athletic/login2/",
+            "https://nytimes.com/athletic/login2?login_source*",
+            "https://nytimes.com/athletic/login2?ref_page*",
+            "https://nytimes.com/athletic/login?login_source*",
+            "https://nytimes.com/athletic/login?ref_page*",
+            "https://nytimes.com/athletic/pv.json",
+            "https://nytimes.com/athletic/register/",
+            "https://nytimes.com/athletic/register2/",
+            "https://nytimes.com/athletic/register2?welcome_redirect*",
+            "https://nytimes.com/athletic/register?welcome_redirect*",
+            "https://nytimes.com/athletic/report/",
+            "https://nytimes.com/athletic/rss-feed/",
+            "https://nytimes.com/athletic/search/*",
+            "https://nytimes.com/athletic/track-analytics/",
+            "https://nytimes.com/athletic/verizon/*",
+            "https://nytimes.com/athletic/wp/wp-admin/",
+            "https://nytimes.com/card/panel/",
+            "https://nytimes.com/hd/",
+            "https://nytimes.com/inyt/",
+            "https://nytimes.com/multiproduct/",
+            "https://nytimes.com/panel/",
+            "https://nytimes.com/puzzles/leaderboards/invite/*",
+            "https://nytimes.com/search",
+            "https://nytimes.com/subscription/*?*onboarded=",
+            "https://nytimes.com/subscription/*?*source=",
+            "https://nytimes.com/svc",
+            "https://nytimes.com/video/embedded/*",
+            "https://nytimes.com/wirecutter/*\u0026xid=",
+            "https://nytimes.com/wirecutter/*.csv$",
+            "https://nytimes.com/wirecutter/*.zip$",
+            "https://nytimes.com/wirecutter/*?l=",
+            "https://nytimes.com/wirecutter/*?merchant=",
+            "https://nytimes.com/wirecutter/*?q=",
+            "https://nytimes.com/wirecutter/*?s=",
+            "https://nytimes.com/wirecutter/data-requests",
+            "https://nytimes.com/wirecutter/deals/beta",
+            "https://nytimes.com/wirecutter/search",
+            "https://nytimes.com/wirecutter/wp-admin/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {
+          "added": [
+            "https://nytimes.com/ads/public/",
+            "https://nytimes.com/athletic/checkout/$",
+            "https://nytimes.com/athletic/forgot-password/$",
+            "https://nytimes.com/athletic/forgot-password2/$",
+            "https://nytimes.com/athletic/login/$",
+            "https://nytimes.com/athletic/login2/$",
+            "https://nytimes.com/athletic/search/$",
+            "https://nytimes.com/athletic/wp/wp-admin/admin-ajax.php",
+            "https://nytimes.com/svc/crosswords",
+            "https://nytimes.com/svc/games",
+            "https://nytimes.com/svc/letter-boxed",
+            "https://nytimes.com/svc/news/v3/all/pshb.rss",
+            "https://nytimes.com/svc/spelling-bee",
+            "https://nytimes.com/svc/vertex",
+            "https://nytimes.com/svc/wordle",
+            "https://nytimes.com/wirecutter/*?*utm_source="
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://nytimes.com/*.pdf$",
+            "https://nytimes.com/*?*\u0026ls=",
+            "https://nytimes.com/*?*ListingID=",
+            "https://nytimes.com/*?*ProfileID=",
+            "https://nytimes.com/*?*campaignId=",
+            "https://nytimes.com/*?*campaign_id=",
+            "https://nytimes.com/*?*embed=",
+            "https://nytimes.com/*?*entry=",
+            "https://nytimes.com/*?*hybrid=",
+            "https://nytimes.com/*?*login=",
+            "https://nytimes.com/*?*mcubz=",
+            "https://nytimes.com/*?*partner=",
+            "https://nytimes.com/*?*query=",
+            "https://nytimes.com/*?*searchResultPosition=",
+            "https://nytimes.com/*?*smid=",
+            "https://nytimes.com/*?*smprod=",
+            "https://nytimes.com/*?*utm_source=",
+            "https://nytimes.com/*?ls=",
+            "https://nytimes.com/ads/",
+            "https://nytimes.com/adx/bin/",
+            "https://nytimes.com/athletic*/?source=*",
+            "https://nytimes.com/athletic*/boxscore/*",
+            "https://nytimes.com/athletic*/signed-mp3-redirect-url/*",
+            "https://nytimes.com/athletic*access_token*",
+            "https://nytimes.com/athletic*ad_id*",
+            "https://nytimes.com/athletic*adgroupid*",
+            "https://nytimes.com/athletic*amp_reader_id*",
+            "https://nytimes.com/athletic*campaignid*",
+            "https://nytimes.com/athletic/*/discuss/*",
+            "https://nytimes.com/athletic/*?*embed=1",
+            "https://nytimes.com/athletic/*?*rss=1",
+            "https://nytimes.com/athletic/amp-auth/",
+            "https://nytimes.com/athletic/amp-social-login*",
+            "https://nytimes.com/athletic/api*",
+            "https://nytimes.com/athletic/async-*",
+            "https://nytimes.com/athletic/betmgm-redirect*",
+            "https://nytimes.com/athletic/call-set-cookie-with-context/*",
+            "https://nytimes.com/athletic/cdn-cgi/",
+            "https://nytimes.com/athletic/checkout/",
+            "https://nytimes.com/athletic/checkout2*",
+            "https://nytimes.com/athletic/checkout?plan_id*",
+            "https://nytimes.com/athletic/feed-test/",
+            "https://nytimes.com/athletic/following-feed-test/*",
+            "https://nytimes.com/athletic/forgot-password/*",
+            "https://nytimes.com/athletic/forgot-password2/*",
+            "https://nytimes.com/athletic/get-current-user/",
+            "https://nytimes.com/athletic/global-color-test.php",
+            "https://nytimes.com/athletic/global-font-test.php",
+            "https://nytimes.com/athletic/graphql*",
+            "https://nytimes.com/athletic/ip*",
+            "https://nytimes.com/athletic/login/",
+            "https://nytimes.com/athletic/login2/",
+            "https://nytimes.com/athletic/login2?login_source*",
+            "https://nytimes.com/athletic/login2?ref_page*",
+            "https://nytimes.com/athletic/login?login_source*",
+            "https://nytimes.com/athletic/login?ref_page*",
+            "https://nytimes.com/athletic/pv.json",
+            "https://nytimes.com/athletic/register/",
+            "https://nytimes.com/athletic/register2/",
+            "https://nytimes.com/athletic/register2?welcome_redirect*",
+            "https://nytimes.com/athletic/register?welcome_redirect*",
+            "https://nytimes.com/athletic/report/",
+            "https://nytimes.com/athletic/rss-feed/",
+            "https://nytimes.com/athletic/search/*",
+            "https://nytimes.com/athletic/track-analytics/",
+            "https://nytimes.com/athletic/verizon/*",
+            "https://nytimes.com/athletic/wp/wp-admin/",
+            "https://nytimes.com/card/panel/",
+            "https://nytimes.com/hd/",
+            "https://nytimes.com/inyt/",
+            "https://nytimes.com/multiproduct/",
+            "https://nytimes.com/panel/",
+            "https://nytimes.com/puzzles/leaderboards/invite/*",
+            "https://nytimes.com/search",
+            "https://nytimes.com/subscription/*?*onboarded=",
+            "https://nytimes.com/subscription/*?*source=",
+            "https://nytimes.com/svc",
+            "https://nytimes.com/video/embedded/*",
+            "https://nytimes.com/wirecutter/*\u0026xid=",
+            "https://nytimes.com/wirecutter/*.csv$",
+            "https://nytimes.com/wirecutter/*.zip$",
+            "https://nytimes.com/wirecutter/*?l=",
+            "https://nytimes.com/wirecutter/*?merchant=",
+            "https://nytimes.com/wirecutter/*?q=",
+            "https://nytimes.com/wirecutter/*?s=",
+            "https://nytimes.com/wirecutter/data-requests",
+            "https://nytimes.com/wirecutter/deals/beta",
+            "https://nytimes.com/wirecutter/search",
+            "https://nytimes.com/wirecutter/wp-admin/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Twitterbot",
+        "allow": {
+          "added": [
+            "https://nytimes.com/*?*smid="
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DuckAssistBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FriendlyCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ImagesiftBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler/1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Timpibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "facebookexternalhit",
+        "allow": {
+          "added": [
+            "https://nytimes.com/*?*smid="
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "meta-externalagent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalFetcher",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "meta-externalfetcher",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250423005934",
+    "rule_changes": [
+      {
+        "user_agent": "Googlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/athletic/embedded-interactive/*",
+            "https://nytimes.com/athletic/interactive/*"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/athletic/embedded-interactive/*",
+            "https://nytimes.com/athletic/interactive/*"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250523152439",
+    "agents_added": [
+      "EchoboxBot",
+      "Jetslide",
+      "Poseidon Research Crawler",
+      "SeekrBot",
+      "TaraGroup Intelligent Bot",
+      "quillbot.com"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Jetslide",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "quillbot.com",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SeekrBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TaraGroup Intelligent Bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "EchoboxBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Poseidon Research Crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250611004854",
+    "agents_added": [
+      "AliyunSecBot",
+      "AudigentAdBot",
+      "BLEXBot",
+      "MyCentralAIScraperBot",
+      "SeznamHomepageCrawler",
+      "ViennaTinyBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "ViennaTinyBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "BLEXBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SeznamHomepageCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AliyunSecBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "MyCentralAIScraperBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AudigentAdBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250714051141",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://nytimes.com/svc/connections",
+            "https://nytimes.com/svc/pips",
+            "https://nytimes.com/svc/strands",
+            "https://nytimes.com/svc/sudoku"
+          ],
+          "removed": [
+            "https://nytimes.com/svc/vertex"
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {
+          "added": [
+            "https://nytimes.com/svc/connections",
+            "https://nytimes.com/svc/pips",
+            "https://nytimes.com/svc/strands",
+            "https://nytimes.com/svc/sudoku"
+          ],
+          "removed": [
+            "https://nytimes.com/svc/vertex"
+          ]
+        },
+        "disallow": {}
+      }
+    ]
+  },
+  {
+    "timestamp": "20250801015654",
+    "agents_added": [
+      "Claude-SearchBot",
+      "Claude-User",
+      "Perplexity-User"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Claude-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Perplexity-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nytimes.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250824155649",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://nytimes.com/wirecutter/blog/*?*utm_source=",
+            "https://nytimes.com/wirecutter/gifts/*?*utm_source=",
+            "https://nytimes.com/wirecutter/lists/*?*utm_source=",
+            "https://nytimes.com/wirecutter/reviews/*?*utm_source="
+          ],
+          "removed": [
+            "https://nytimes.com/athletic/forgot-password/$",
+            "https://nytimes.com/athletic/forgot-password2/$"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://nytimes.com/wirecutter/out/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {
+          "added": [
+            "https://nytimes.com/wirecutter/blog/*?*utm_source=",
+            "https://nytimes.com/wirecutter/gifts/*?*utm_source=",
+            "https://nytimes.com/wirecutter/lists/*?*utm_source=",
+            "https://nytimes.com/wirecutter/reviews/*?*utm_source="
+          ],
+          "removed": [
+            "https://nytimes.com/athletic/forgot-password/$",
+            "https://nytimes.com/athletic/forgot-password2/$"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://nytimes.com/wirecutter/out/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20251005050311",
+    "agents_removed": [
+      "Amazonbot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Google-CloudVertexBot",
+        "allow": {
+          "added": [
+            "https://nytimes.com/athletic/"
+          ]
+        },
+        "disallow": {}
+      }
+    ]
+  }
+]
