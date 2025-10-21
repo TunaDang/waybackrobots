@@ -1,6 +1,7 @@
 package main
 
 import (
+	"archive/zip"
 	"bufio"
 	"encoding/json"
 	"flag"
@@ -24,17 +25,19 @@ type RuleSet map[string]string // Key: path, Value: "allow" or "disallow"
 // AgentRules holds the rules for all user-agents in a robots.txt file.
 type AgentRules map[string]RuleSet // Key: user-agent
 
-// VersionContent holds the timestamp and the rules from a robots.txt version.
+// VersionContent holds the timestamp, rules, and raw content from a robots.txt version.
 type VersionContent struct {
-	Timestamp string
-	Rules     AgentRules
+	Timestamp  string
+	Rules      AgentRules
+	RawContent string // Store the raw text content
 }
 
 func main() {
 	versionsLimit := flag.Int("limit", 100, "limit the number crawled snapshots. Use -1 for unlimited")
 	recent := flag.Bool("recent", true, "use the most recent snapshots without evenly distributing them")
 	timeline := flag.Bool("timeline", false, "show a timeline of changes in robots.txt")
-	outputDir := flag.String("output", "", "directory to save JSON output")
+	year := flag.Int("year", 0, "specify a year to fetch timeline changes for (e.g., 2023). Overrides -limit and -recent.")
+	outputDir := flag.String("output", "", "directory to save JSON and raw .txt output")
 	flag.Parse()
 
 	scanner := bufio.NewScanner(os.Stdin)
@@ -49,7 +52,7 @@ func main() {
 			processURL(u, *versionsLimit, *recent, *outputDir)
 		} else {
 			// New timeline functionality
-			createTimeline(u, *versionsLimit, *recent, *outputDir)
+			createTimeline(u, *versionsLimit, *recent, *year, *outputDir)
 		}
 	}
 
@@ -60,7 +63,8 @@ func main() {
 }
 
 func processURL(u string, limit int, recent bool, outputDir string) {
-	versions, err := GetRobotsTxtVersions(u, limit, recent)
+	// Pass 0 for year to use default limit/recent logic
+	versions, err := GetRobotsTxtVersions(u, limit, recent, 0)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Error getting versions: %v\n", err)
 		return
@@ -113,10 +117,14 @@ func processURL(u string, limit int, recent bool, outputDir string) {
 	}
 }
 
-func createTimeline(u string, limit int, recent bool, outputDir string) {
-	versions, err := GetRobotsTxtVersions(u, limit, recent)
+func createTimeline(u string, limit int, recent bool, year int, outputDir string) {
+	versions, err := GetRobotsTxtVersions(u, limit, recent, year)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Error getting versions: %v\n", err)
+		return
+	}
+	if len(versions) == 0 {
+		fmt.Fprintf(os.Stderr, "No versions found for %s (Year: %d)\n", u, year)
 		return
 	}
 
@@ -134,8 +142,8 @@ func createTimeline(u string, limit int, recent bool, outputDir string) {
 		go func() {
 			defer wg.Done()
 			for version := range jobCh {
-				rules := GetRobotsTxtPathsForTimeline(version, u, bar)
-				resultCh <- VersionContent{Timestamp: version, Rules: rules}
+				rules, rawContent := GetRobotsTxtPathsForTimeline(version, u, bar)
+				resultCh <- VersionContent{Timestamp: version, Rules: rules, RawContent: rawContent}
 			}
 		}()
 	}
@@ -158,11 +166,11 @@ func createTimeline(u string, limit int, recent bool, outputDir string) {
 	})
 
 	if outputDir != "" {
-		writeTimelineJSON(u, versionContents, outputDir)
+		writeTimelineOutput(u, versionContents, year, outputDir)
 		return
 	}
 
-	// Compare versions and print timeline
+	// Compare versions and print timeline to STDOUT
 	var previousRules AgentRules
 	for _, vc := range versionContents {
 		addedAgents := []string{}
@@ -171,7 +179,7 @@ func createTimeline(u string, limit int, recent bool, outputDir string) {
 
 		// Find added/changed agents
 		for agent, currentRules := range vc.Rules {
-			previousRules, exists := previousRules[agent]
+			prevAgentRules, exists := previousRules[agent]
 			if !exists {
 				addedAgents = append(addedAgents, agent)
 				ruleChanges = true
@@ -179,7 +187,7 @@ func createTimeline(u string, limit int, recent bool, outputDir string) {
 			}
 
 			// Check for path changes within the agent
-			addedAllows, removedAllows, addedDisallows, removedDisallows := diffRuleSets(currentRules, previousRules)
+			addedAllows, removedAllows, addedDisallows, removedDisallows := diffRuleSets(currentRules, prevAgentRules)
 			if len(addedAllows) > 0 || len(removedAllows) > 0 || len(addedDisallows) > 0 || len(removedDisallows) > 0 {
 				ruleChanges = true
 			}
@@ -193,8 +201,8 @@ func createTimeline(u string, limit int, recent bool, outputDir string) {
 			}
 		}
 
-		if !ruleChanges && len(addedAgents) == 0 && len(removedAgents) == 0 {
-			continue // Skip if no changes
+		if !ruleChanges && len(addedAgents) == 0 && len(removedAgents) == 0 && previousRules != nil {
+			continue // Skip if no changes *and* it's not the first version
 		}
 
 		fmt.Printf("\n--- Changes on %s ---\n", vc.Timestamp)
@@ -232,14 +240,38 @@ func createTimeline(u string, limit int, recent bool, outputDir string) {
 			for _, agent := range addedAgents {
 				fmt.Printf("  [+] New User-agent: %s\n", agent)
 				// Similar logic as initial version to print all rules for the new agent
+				rules := vc.Rules[agent]
+				allows := []string{}
+				disallows := []string{}
+				for path, directive := range rules {
+					if directive == "allow" {
+						allows = append(allows, path)
+					} else {
+						disallows = append(disallows, path)
+					}
+				}
+				sort.Strings(allows)
+				sort.Strings(disallows)
+				if len(allows) > 0 {
+					fmt.Println("    Allow:")
+					for _, path := range allows {
+						fmt.Printf("      + %s\n", path)
+					}
+				}
+				if len(disallows) > 0 {
+					fmt.Println("    Disallow:")
+					for _, path := range disallows {
+						fmt.Printf("      + %s\n", path)
+					}
+				}
 			}
 			for _, agent := range removedAgents {
 				fmt.Printf("  [-] Removed User-agent: %s\n", agent)
 			}
 
 			for agent, currentRules := range vc.Rules {
-				if previousRules, exists := previousRules[agent]; exists {
-					addedAllows, removedAllows, addedDisallows, removedDisallows := diffRuleSets(currentRules, previousRules)
+				if prevAgentRules, exists := previousRules[agent]; exists {
+					addedAllows, removedAllows, addedDisallows, removedDisallows := diffRuleSets(currentRules, prevAgentRules)
 
 					if len(addedAllows) > 0 || len(removedAllows) > 0 || len(addedDisallows) > 0 || len(removedDisallows) > 0 {
 						fmt.Printf("  [~] Changed User-agent: %s\n", agent)
@@ -336,147 +368,222 @@ func writePathsJSON(u string, paths map[string]bool, outputDir string) {
 	}
 }
 
-func writeTimelineJSON(u string, versionContents []VersionContent, outputDir string) {
-	domain := getHost(u)
-	dirPath := filepath.Join(outputDir, domain)
-	if err := os.MkdirAll(dirPath, 0755); err != nil {
-		fmt.Fprintf(os.Stderr, "Error creating directory %s: %v\n", dirPath, err)
-		return
-	}
+// writeTimelineOutput handles writing both the JSON delta file and the raw
+// robots.txt files for the specified year.
+func writeTimelineOutput(u string, versionContents []VersionContent, year int, outputDir string) {
+    if len(versionContents) == 0 {
+        fmt.Fprintf(os.Stderr, "No versions to write for %s\n", u)
+        return
+    }
 
-	type changeSet struct {
-		Added   []string `json:"added,omitempty"`
-		Removed []string `json:"removed,omitempty"`
-	}
+    domain := getHost(u)
+    var dirPath string
+    var jsonFileName string
 
-	type ruleChange struct {
-		UserAgent string    `json:"user_agent"`
-		Allow     changeSet `json:"allow,omitempty"`
-		Disallow  changeSet `json:"disallow,omitempty"`
-	}
+    if year > 0 {
+        dirPath = filepath.Join(outputDir, domain, strconv.Itoa(year))
+        jsonFileName = fmt.Sprintf("timeline_%d.json", year)
+    } else {
+        dirPath = filepath.Join(outputDir, domain)
+        jsonFileName = "timeline.json"
+    }
 
-	type timelineEntry struct {
-		Timestamp      string       `json:"timestamp"`
-		AgentsAdded    []string     `json:"agents_added,omitempty"`
-		AgentsRemoved  []string     `json:"agents_removed,omitempty"`
-		RuleChanges    []ruleChange `json:"rule_changes,omitempty"`
-		InitialContent []ruleChange `json:"initial_content,omitempty"`
-	}
+    if err := os.MkdirAll(dirPath, 0755); err != nil {
+        fmt.Fprintf(os.Stderr, "Error creating directory %s: %v\n", dirPath, err)
+        return
+    }
 
-	var timeline []timelineEntry
-	var previousRules AgentRules
+    // --- Structs for JSON output ---
+    type changeSet struct {
+        Added   []string `json:"added,omitempty"`
+        Removed []string `json:"removed,omitempty"`
+    }
+    type ruleChange struct {
+        UserAgent string    `json:"user_agent"`
+        Allow     changeSet `json:"allow,omitempty"`
+        Disallow  changeSet `json:"disallow,omitempty"`
+    }
+    type timelineEntry struct {
+        Timestamp      string       `json:"timestamp"`
+        AgentsAdded    []string     `json:"agents_added,omitempty"`
+        AgentsRemoved  []string     `json:"agents_removed,omitempty"`
+        RuleChanges    []ruleChange `json:"rule_changes,omitempty"`
+        InitialContent []ruleChange `json:"initial_content,omitempty"`
+    }
 
-	for _, vc := range versionContents {
-		entry := timelineEntry{Timestamp: vc.Timestamp}
-		hasChanges := false
+    var timeline []timelineEntry
+    var previousRules AgentRules
+    filesToZip := make(map[string]string) // K: filename, V: content
 
-		if previousRules == nil {
-			// Initial version
-			for agent, rules := range vc.Rules {
-				allows := []string{}
-				disallows := []string{}
-				for path, directive := range rules {
-					if directive == "allow" {
-						allows = append(allows, path)
-					} else {
-						disallows = append(disallows, path)
-					}
-				}
-				sort.Strings(allows)
-				sort.Strings(disallows)
-				change := ruleChange{UserAgent: agent}
-				if len(allows) > 0 {
-					change.Allow.Added = allows
-				}
-				if len(disallows) > 0 {
-					change.Disallow.Added = disallows
-				}
-				entry.InitialContent = append(entry.InitialContent, change)
-				hasChanges = true
-			}
-		} else {
-			// Compare with previous version
-			// Find added agents
-			for agent, rules := range vc.Rules {
-				if _, exists := previousRules[agent]; !exists {
-					entry.AgentsAdded = append(entry.AgentsAdded, agent)
-					// also list the initial rules for the new agent
-					allows := []string{}
-					disallows := []string{}
-					for path, directive := range rules {
-						if directive == "allow" {
-							allows = append(allows, path)
-						} else {
-							disallows = append(disallows, path)
-						}
-					}
-					sort.Strings(allows)
-					sort.Strings(disallows)
-					change := ruleChange{UserAgent: agent}
-					if len(allows) > 0 {
-						change.Allow.Added = allows
-					}
-					if len(disallows) > 0 {
-						change.Disallow.Added = disallows
-					}
-					entry.RuleChanges = append(entry.RuleChanges, change)
-					hasChanges = true
-				}
-			}
-			sort.Strings(entry.AgentsAdded)
+    // --- Process versions to find changes and collect files to zip ---
+    for _, vc := range versionContents {
+        entry := timelineEntry{Timestamp: vc.Timestamp}
+        hasChanges := false
 
-			// Find removed agents
-			for agent := range previousRules {
-				if _, exists := vc.Rules[agent]; !exists {
-					entry.AgentsRemoved = append(entry.AgentsRemoved, agent)
-					hasChanges = true
-				}
-			}
-			sort.Strings(entry.AgentsRemoved)
+        if previousRules == nil {
+            // --- Initial version (for JSON) ---
+            hasChanges = true // The first entry is always included in the timeline
+            for agent, rules := range vc.Rules {
+                allows := []string{}
+                disallows := []string{}
+                for path, directive := range rules {
+                    if directive == "allow" {
+                        allows = append(allows, path)
+                    } else {
+                        disallows = append(disallows, path)
+                    }
+                }
+                sort.Strings(allows)
+                sort.Strings(disallows)
+                change := ruleChange{UserAgent: agent}
+                if len(allows) > 0 {
+                    change.Allow.Added = allows
+                }
+                if len(disallows) > 0 {
+                    change.Disallow.Added = disallows
+                }
+                entry.InitialContent = append(entry.InitialContent, change)
+            }
+        } else {
+            // --- Compare with previous version (for JSON and raw file logic) ---
+            // Find added agents
+            for agent, rules := range vc.Rules {
+                if _, exists := previousRules[agent]; !exists {
+                    entry.AgentsAdded = append(entry.AgentsAdded, agent)
+                    // also list the initial rules for the new agent
+                    allows := []string{}
+                    disallows := []string{}
+                    for path, directive := range rules {
+                        if directive == "allow" {
+                            allows = append(allows, path)
+                        } else {
+                            disallows = append(disallows, path)
+                        }
+                    }
+                    sort.Strings(allows)
+                    sort.Strings(disallows)
+                    change := ruleChange{UserAgent: agent}
+                    if len(allows) > 0 {
+                        change.Allow.Added = allows
+                    }
+                    if len(disallows) > 0 {
+                        change.Disallow.Added = disallows
+                    }
+                    entry.RuleChanges = append(entry.RuleChanges, change)
+                    hasChanges = true
+                }
+            }
+            sort.Strings(entry.AgentsAdded)
 
-			// Find rule changes for existing agents
-			for agent, currentRules := range vc.Rules {
-				if previousRules, exists := previousRules[agent]; exists {
-					addedAllows, removedAllows, addedDisallows, removedDisallows := diffRuleSets(currentRules, previousRules)
+            // Find removed agents
+            for agent := range previousRules {
+                if _, exists := vc.Rules[agent]; !exists {
+                    entry.AgentsRemoved = append(entry.AgentsRemoved, agent)
+                    hasChanges = true
+                }
+            }
+            sort.Strings(entry.AgentsRemoved)
 
-					if len(addedAllows) > 0 || len(removedAllows) > 0 || len(addedDisallows) > 0 || len(removedDisallows) > 0 {
-						change := ruleChange{UserAgent: agent}
-						change.Allow = changeSet{Added: addedAllows, Removed: removedAllows}
-						change.Disallow = changeSet{Added: addedDisallows, Removed: removedDisallows}
-						entry.RuleChanges = append(entry.RuleChanges, change)
-						hasChanges = true
-					}
-				}
-			}
-		}
+            // Find rule changes for existing agents
+            for agent, currentRules := range vc.Rules {
+                if prevAgentRules, exists := previousRules[agent]; exists {
+                    addedAllows, removedAllows, addedDisallows, removedDisallows := diffRuleSets(currentRules, prevAgentRules)
 
-		if hasChanges {
-			timeline = append(timeline, entry)
-		}
-		previousRules = vc.Rules
-	}
+                    if len(addedAllows) > 0 || len(removedAllows) > 0 || len(addedDisallows) > 0 || len(removedDisallows) > 0 {
+                        change := ruleChange{UserAgent: agent}
+                        change.Allow = changeSet{Added: addedAllows, Removed: removedAllows}
+                        change.Disallow = changeSet{Added: addedDisallows, Removed: removedDisallows}
+                        entry.RuleChanges = append(entry.RuleChanges, change)
+                        hasChanges = true
+                    }
+                }
+            }
+        }
 
-	filePath := filepath.Join(dirPath, "timeline.json")
-	file, err := os.Create(filePath)
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error creating file %s: %v\n", filePath, err)
-		return
-	}
-	defer file.Close()
+        // --- Collect raw .txt file content if this is the first one or if there are changes ---
+        if (previousRules == nil || hasChanges) && vc.RawContent != "" {
+            if year > 0 {
+                // If year is specified, add to zip map instead of writing directly
+                fileName := fmt.Sprintf("robots_%s.txt", vc.Timestamp)
+                filesToZip[fileName] = vc.RawContent
+            } else {
+                // Original behavior: write individual files if not using -year
+                rawFileName := fmt.Sprintf("robots_%s.txt", vc.Timestamp)
+                rawFilePath := filepath.Join(dirPath, rawFileName)
+                err := ioutil.WriteFile(rawFilePath, []byte(vc.RawContent), 0644)
+                if err != nil {
+                    fmt.Fprintf(os.Stderr, "Error writing raw file %s: %v\n", rawFilePath, err)
+                }
+            }
+        }
 
-	encoder := json.NewEncoder(file)
-	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(timeline); err != nil {
-		fmt.Fprintf(os.Stderr, "Error writing JSON to %s: %v\n", filePath, err)
-	} else {
-		fmt.Fprintf(os.Stderr, "Wrote timeline to %s\n", filePath)
-	}
+        if hasChanges {
+            timeline = append(timeline, entry)
+        }
+        previousRules = vc.Rules
+    }
+
+    // --- Write the collected .txt files to a zip archive if year is specified ---
+    if year > 0 && len(filesToZip) > 0 {
+        zipFileName := fmt.Sprintf("robots_txt_%d.zip", year)
+        zipFilePath := filepath.Join(dirPath, zipFileName)
+        zipFile, err := os.Create(zipFilePath)
+        if err != nil {
+            fmt.Fprintf(os.Stderr, "Error creating zip file %s: %v\n", zipFilePath, err)
+            return
+        }
+        defer zipFile.Close()
+
+        zipWriter := zip.NewWriter(zipFile)
+        defer zipWriter.Close()
+
+        for name, content := range filesToZip {
+            f, err := zipWriter.Create(name)
+            if err != nil {
+                fmt.Fprintf(os.Stderr, "Error adding file %s to zip: %v\n", name, err)
+                continue
+            }
+            _, err = f.Write([]byte(content))
+            if err != nil {
+                fmt.Fprintf(os.Stderr, "Error writing content for file %s to zip: %v\n", name, err)
+                continue
+            }
+        }
+        fmt.Fprintf(os.Stderr, "Wrote %d txt files to %s\n", len(filesToZip), zipFilePath)
+    }
+
+    // --- Write the JSON timeline.json file ---
+    jsonFilePath := filepath.Join(dirPath, jsonFileName)
+    file, err := os.Create(jsonFilePath)
+    if err != nil {
+        fmt.Fprintf(os.Stderr, "Error creating file %s: %v\n", jsonFilePath, err)
+        return
+    }
+    defer file.Close()
+
+    encoder := json.NewEncoder(file)
+    encoder.SetIndent("", "  ")
+    if err := encoder.Encode(timeline); err != nil {
+        fmt.Fprintf(os.Stderr, "Error writing JSON to %s: %v\n", jsonFilePath, err)
+    } else {
+        fmt.Fprintf(os.Stderr, "Wrote timeline to %s\n", jsonFilePath)
+    }
 }
 
-func GetRobotsTxtVersions(url string, limit int, recent bool) ([]string, error) {
-	requestURL := fmt.Sprintf("https://web.archive.org/cdx/search/cdx?url=%s/robots.txt&output=json&fl=timestamp&filter=statuscode:200&collapse=digest", url)
-	if limit != -1 && recent {
-		requestURL += "&limit=-" + strconv.Itoa(limit)
+func GetRobotsTxtVersions(url string, limit int, recent bool, year int) ([]string, error) {
+	var requestURL string
+
+	if year > 0 {
+		// Year is specified, override limit/recent and use from/to
+		from := fmt.Sprintf("%d0101000000", year)
+		to := fmt.Sprintf("%d1231235959", year)
+		requestURL = fmt.Sprintf("https://web.archive.org/cdx/search/cdx?url=%s/robots.txt&output=json&fl=timestamp&filter=statuscode:200&collapse=digest&from=%s&to=%s", url, from, to)
+	} else {
+		// No year, use original logic
+		requestURL = fmt.Sprintf("https://web.archive.org/cdx/search/cdx?url=%s/robots.txt&output=json&fl=timestamp&filter=statuscode:200&collapse=digest", url)
+		if limit != -1 && recent {
+			requestURL += "&limit=-" + strconv.Itoa(limit)
+		}
 	}
 
 	res, err := http.Get(requestURL)
@@ -499,24 +606,34 @@ func GetRobotsTxtVersions(url string, limit int, recent bool) ([]string, error) 
 		return []string{}, nil
 	}
 
-	versions = versions[1:]
+	versions = versions[1:] // Skip header row
 
 	selectedVersions := make([]string, 0)
 	length := len(versions)
 
-	if recent || limit == -1 || length <= limit {
+	if year > 0 {
+		// If year was specified, we want all versions returned
 		for _, version := range versions {
 			selectedVersions = append(selectedVersions, version...)
 		}
 	} else {
-		interval := length / (limit - 1)
-
-		for i := 0; i < limit; i++ {
-			index := i * interval
-			if index >= length {
-				index = length - (limit - i)
+		// Use original limit/recent logic if no year was given
+		if recent || limit == -1 || length <= limit {
+			for _, version := range versions {
+				selectedVersions = append(selectedVersions, version...)
 			}
-			selectedVersions = append(selectedVersions, versions[index]...)
+		} else {
+			interval := float64(length) / float64(limit-1)
+			for i := 0; i < limit; i++ {
+				index := int(float64(i) * interval)
+				if i == limit-1 {
+					index = length - 1 // Ensure last index is always included
+				}
+				if index >= length {
+					index = length - 1
+				}
+				selectedVersions = append(selectedVersions, versions[index]...)
+			}
 		}
 	}
 	return selectedVersions, nil
@@ -531,6 +648,7 @@ func GetRobotsTxtPaths(version string, url string, pathCh chan []string, bar *pr
 	}
 
 	outputURLs := make([]string, 0)
+	defer res.Body.Close()
 
 	scanner := bufio.NewScanner(res.Body)
 	for scanner.Scan() {
@@ -557,25 +675,31 @@ func GetRobotsTxtPaths(version string, url string, pathCh chan []string, bar *pr
 	pathCh <- outputURLs
 }
 
-func GetRobotsTxtPathsForTimeline(version string, url string, bar *progressbar.ProgressBar) AgentRules {
-	requestURL := fmt.Sprintf("https://web.archive.org/web/%sif_/%s/robots.txt", version, url)
+// GetRobotsTxtPathsForTimeline parses a robots.txt version and returns its rules and raw content.
+func GetRobotsTxtPathsForTimeline(version string, u string, bar *progressbar.ProgressBar) (AgentRules, string) {
+	requestURL := fmt.Sprintf("https://web.archive.org/web/%sif_/%s/robots.txt", version, u)
 	res, err := http.Get(requestURL)
 	bar.Add(1)
-	if err != nil || res.StatusCode != 200 {
-		return nil
+	if err != nil {
+		return nil, ""
+	}
+	if res.StatusCode != 200 {
+		res.Body.Close()
+		return nil, ""
 	}
 
 	defer res.Body.Close()
 	body, err := ioutil.ReadAll(res.Body)
 	if err != nil {
-		return nil
+		return nil, ""
 	}
-
+	rawContent := string(body)
 	allRules := make(AgentRules)
+
 	var currentAgents []string
 	lastDirectiveWasAgent := false
 
-	scanner := bufio.NewScanner(strings.NewReader(string(body)))
+	scanner := bufio.NewScanner(strings.NewReader(rawContent))
 	for scanner.Scan() {
 		line := strings.TrimSpace(scanner.Text())
 		if strings.HasPrefix(line, "#") || line == "" {
@@ -602,7 +726,10 @@ func GetRobotsTxtPathsForTimeline(version string, url string, bar *progressbar.P
 			if len(currentAgents) == 0 {
 				continue // Rule without a user-agent
 			}
-			fullPath, err := mergeURLPath(url, value)
+			// Use the raw path from the file, but create a full URL for comparison
+			// Note: The diff logic relies on paths being consistent.
+			// Using the merged URL path ensures "path" and "/path" are treated same.
+			fullPath, err := mergeURLPath(u, value)
 			if err != nil {
 				continue
 			}
@@ -610,6 +737,7 @@ func GetRobotsTxtPathsForTimeline(version string, url string, bar *progressbar.P
 				if _, ok := allRules[agent]; !ok {
 					allRules[agent] = make(RuleSet)
 				}
+				// Store the full path for consistent diffing
 				allRules[agent][fullPath] = directive
 			}
 			lastDirectiveWasAgent = false
@@ -618,20 +746,7 @@ func GetRobotsTxtPathsForTimeline(version string, url string, bar *progressbar.P
 			lastDirectiveWasAgent = false
 		}
 	}
-	return allRules
-}
-
-// isNewAgentGroup checks if the next lines contain another user-agent,
-// which indicates the start of a new group according to some interpretations.
-// This is a helper to handle multi-agent groups correctly.
-func isNewAgentGroup(scanner *bufio.Scanner) bool {
-	// This is a simplification. A proper implementation would need to peek ahead
-	// without consuming the line, which bufio.Scanner doesn't directly support.
-	// For this tool's purpose, we'll treat each User-agent line as potentially
-	// starting a new context unless they are consecutive.
-	// The current logic in the loop handles this by appending to currentAgents.
-	// A new User-agent line will just add to the list.
-	return false // Simplified for now
+	return allRules, rawContent
 }
 
 func mergeURLPath(baseURL, path string) (string, error) {
@@ -644,8 +759,14 @@ func mergeURLPath(baseURL, path string) (string, error) {
 		path = "/" + path
 	}
 
-	url := fmt.Sprintf(base.String() + path)
-	return url, nil
+	// Use ResolveReference to correctly handle paths
+	pathURL, err := url.Parse(path)
+	if err != nil {
+		return "", err
+	}
+	
+	resolvedURL := base.ResolveReference(pathURL)
+	return resolvedURL.String(), nil
 }
 
 func getHost(rawURL string) string {
@@ -657,15 +778,24 @@ func getHost(rawURL string) string {
 }
 
 func cleanURL(baseURL string) (string, error) {
-	u, err := url.Parse(baseURL)
+	// Trim protocol if present for parsing
+	cleanBase := strings.TrimPrefix(strings.TrimPrefix(baseURL, "https://"), "http://")
+
+	u, err := url.Parse("https://" + cleanBase) // Default to https for parsing
 	if err != nil {
 		return "", err
 	}
 
-	if u.Scheme == "" {
-		u.Scheme = "https"
-		u.Host = baseURL
+	// Re-parse with the original string to detect scheme
+	originalURL, err := url.Parse(baseURL)
+	if err != nil {
+		return "", err
+	}
+	
+	scheme := "https" // Default
+	if originalURL.Scheme != "" {
+		scheme = originalURL.Scheme
 	}
 
-	return fmt.Sprintf("%s://%s", u.Scheme, u.Host), nil
+	return fmt.Sprintf("%s://%s", scheme, u.Host), nil
 }
