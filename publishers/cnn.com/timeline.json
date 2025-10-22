@@ -1,0 +1,1970 @@
+[
+  {
+    "timestamp": "20250207222701",
+    "initial_content": [
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/sponsor"
+          ]
+        }
+      },
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://cnn.com/partners/ipad/live-video.json"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://cnn.com/*.jsx$",
+            "https://cnn.com/*.jsx/",
+            "https://cnn.com/*.jsx?",
+            "https://cnn.com/NOKIA",
+            "https://cnn.com/NewsPass",
+            "https://cnn.com/POLLSERVER/",
+            "https://cnn.com/PV/",
+            "https://cnn.com/QUICKNEWS/",
+            "https://cnn.com/Quickcast/",
+            "https://cnn.com/WEB-INF/",
+            "https://cnn.com/ads/",
+            "https://cnn.com/aol/",
+            "https://cnn.com/api/",
+            "https://cnn.com/beta/",
+            "https://cnn.com/browsers/",
+            "https://cnn.com/cl/",
+            "https://cnn.com/cnews/",
+            "https://cnn.com/cnn_adspaces",
+            "https://cnn.com/cnnbeta/",
+            "https://cnn.com/cnnintl_adspaces",
+            "https://cnn.com/development",
+            "https://cnn.com/editionssi",
+            "https://cnn.com/games",
+            "https://cnn.com/help/cnnx.html",
+            "https://cnn.com/partners/",
+            "https://cnn.com/pipeline/",
+            "https://cnn.com/pointroll/",
+            "https://cnn.com/pr/",
+            "https://cnn.com/privacy",
+            "https://cnn.com/quickcast/",
+            "https://cnn.com/search",
+            "https://cnn.com/subscriptions/video-docs",
+            "https://cnn.com/terms",
+            "https://cnn.com/test/",
+            "https://cnn.com/virtual/",
+            "https://cnn.com/web.projects/",
+            "https://cnn.com/webview/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250328123016",
+    "agents_added": [
+      "AI2Bot",
+      "Ai2Bot-Dolma",
+      "Amazonbot",
+      "Applebot",
+      "Applebot-Extended",
+      "Bingbot",
+      "Brightbot 1.0",
+      "Crawlspace",
+      "DuckAssistBot",
+      "DuckDuckBot",
+      "FriendlyCrawler",
+      "GoogleOther",
+      "GoogleOther-Image",
+      "GoogleOther-Video",
+      "ICC-Crawler",
+      "ISSCyberRiskCrawler",
+      "ImagesiftBot",
+      "Kangaroo Bot",
+      "Meta-ExternalAgent",
+      "Meta-ExternalFetcher",
+      "OAI-SearchBot",
+      "PanguBot",
+      "PetalBot",
+      "SemrushBot-OCOB",
+      "SemrushBot-SWA",
+      "Sidetrade indexer bot",
+      "Timpibot",
+      "VelenPublicWebCrawler",
+      "Webzio-Extended",
+      "YandexBot",
+      "YouBot",
+      "cohere-training-data-crawler",
+      "iaskspider/2.0",
+      "img2dataset"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "VelenPublicWebCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther-Image",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Ai2Bot-Dolma",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PetalBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalFetcher",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Timpibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FriendlyCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther-Video",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "iaskspider/2.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Crawlspace",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DuckDuckBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "YandexBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Brightbot 1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-training-data-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ISSCyberRiskCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Kangaroo Bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bingbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "img2dataset",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SemrushBot-SWA",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "YouBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SemrushBot-OCOB",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ICC-Crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AI2Bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Webzio-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DuckAssistBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ImagesiftBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PanguBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Sidetrade indexer bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250328230103",
+    "agents_removed": [
+      "Bingbot",
+      "DuckDuckBot",
+      "YandexBot"
+    ]
+  },
+  {
+    "timestamp": "20250404171058",
+    "agents_removed": [
+      "*",
+      "AI2Bot",
+      "Ai2Bot-Dolma",
+      "Amazonbot",
+      "Applebot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Brightbot 1.0",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "Crawlspace",
+      "DataForSeoBot",
+      "Diffbot",
+      "DuckAssistBot",
+      "FacebookBot",
+      "FriendlyCrawler",
+      "GPTBot",
+      "Google-Extended",
+      "GoogleOther",
+      "GoogleOther-Image",
+      "GoogleOther-Video",
+      "Googlebot-News",
+      "ICC-Crawler",
+      "ISSCyberRiskCrawler",
+      "ImagesiftBot",
+      "Kangaroo Bot",
+      "Meta-ExternalAgent",
+      "Meta-ExternalFetcher",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PanguBot",
+      "PerplexityBot",
+      "PetalBot",
+      "PiplBot",
+      "Scrapy",
+      "SemrushBot-OCOB",
+      "SemrushBot-SWA",
+      "Sidetrade indexer bot",
+      "Timpibot",
+      "TurnitinBot",
+      "VelenPublicWebCrawler",
+      "Webzio-Extended",
+      "YouBot",
+      "anthropic-ai",
+      "cohere-ai",
+      "cohere-training-data-crawler",
+      "iaskspider/2.0",
+      "img2dataset",
+      "magpie-crawler",
+      "news-please",
+      "omgili",
+      "omgilibot"
+    ]
+  },
+  {
+    "timestamp": "20250405121356",
+    "initial_content": [
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Kangaroo Bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/sponsor"
+          ]
+        }
+      },
+      {
+        "user_agent": "Crawlspace",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FriendlyCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ISSCyberRiskCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Sidetrade indexer bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://cnn.com/partners/ipad/live-video.json"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://cnn.com/*.jsx$",
+            "https://cnn.com/*.jsx/",
+            "https://cnn.com/*.jsx?",
+            "https://cnn.com/NOKIA",
+            "https://cnn.com/NewsPass",
+            "https://cnn.com/POLLSERVER/",
+            "https://cnn.com/PV/",
+            "https://cnn.com/QUICKNEWS/",
+            "https://cnn.com/Quickcast/",
+            "https://cnn.com/WEB-INF/",
+            "https://cnn.com/ads/",
+            "https://cnn.com/aol/",
+            "https://cnn.com/api/",
+            "https://cnn.com/beta/",
+            "https://cnn.com/browsers/",
+            "https://cnn.com/cl/",
+            "https://cnn.com/cnews/",
+            "https://cnn.com/cnn_adspaces",
+            "https://cnn.com/cnnbeta/",
+            "https://cnn.com/cnnintl_adspaces",
+            "https://cnn.com/development",
+            "https://cnn.com/editionssi",
+            "https://cnn.com/games",
+            "https://cnn.com/help/cnnx.html",
+            "https://cnn.com/partners/",
+            "https://cnn.com/pipeline/",
+            "https://cnn.com/pointroll/",
+            "https://cnn.com/pr/",
+            "https://cnn.com/privacy",
+            "https://cnn.com/quickcast/",
+            "https://cnn.com/search",
+            "https://cnn.com/subscriptions/video-docs",
+            "https://cnn.com/terms",
+            "https://cnn.com/test/",
+            "https://cnn.com/virtual/",
+            "https://cnn.com/web.projects/",
+            "https://cnn.com/webview/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DuckAssistBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PanguBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PetalBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Ai2Bot-Dolma",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "VelenPublicWebCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Webzio-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ImagesiftBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Timpibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther-Video",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "img2dataset",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SemrushBot-OCOB",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SemrushBot-SWA",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther-Image",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "iaskspider/2.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ICC-Crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalFetcher",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "YouBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AI2Bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Brightbot 1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-training-data-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250409095758",
+    "agents_removed": [
+      "*",
+      "AI2Bot",
+      "Ai2Bot-Dolma",
+      "Amazonbot",
+      "Applebot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Brightbot 1.0",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "Crawlspace",
+      "DataForSeoBot",
+      "Diffbot",
+      "DuckAssistBot",
+      "FacebookBot",
+      "FriendlyCrawler",
+      "GPTBot",
+      "Google-Extended",
+      "GoogleOther",
+      "GoogleOther-Image",
+      "GoogleOther-Video",
+      "Googlebot-News",
+      "ICC-Crawler",
+      "ISSCyberRiskCrawler",
+      "ImagesiftBot",
+      "Kangaroo Bot",
+      "Meta-ExternalAgent",
+      "Meta-ExternalFetcher",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PanguBot",
+      "PerplexityBot",
+      "PetalBot",
+      "PiplBot",
+      "Scrapy",
+      "SemrushBot-OCOB",
+      "SemrushBot-SWA",
+      "Sidetrade indexer bot",
+      "Timpibot",
+      "TurnitinBot",
+      "VelenPublicWebCrawler",
+      "Webzio-Extended",
+      "YouBot",
+      "anthropic-ai",
+      "cohere-ai",
+      "cohere-training-data-crawler",
+      "iaskspider/2.0",
+      "img2dataset",
+      "magpie-crawler",
+      "news-please",
+      "omgili",
+      "omgilibot"
+    ]
+  },
+  {
+    "timestamp": "20250409132029",
+    "initial_content": [
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DuckAssistBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "iaskspider/2.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "VelenPublicWebCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther-Video",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalFetcher",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Webzio-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FriendlyCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ICC-Crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ImagesiftBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AI2Bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-training-data-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GoogleOther-Image",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PanguBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PetalBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Crawlspace",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SemrushBot-OCOB",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "YouBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://cnn.com/partners/ipad/live-video.json"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://cnn.com/*.jsx$",
+            "https://cnn.com/*.jsx/",
+            "https://cnn.com/*.jsx?",
+            "https://cnn.com/NOKIA",
+            "https://cnn.com/NewsPass",
+            "https://cnn.com/POLLSERVER/",
+            "https://cnn.com/PV/",
+            "https://cnn.com/QUICKNEWS/",
+            "https://cnn.com/Quickcast/",
+            "https://cnn.com/WEB-INF/",
+            "https://cnn.com/ads/",
+            "https://cnn.com/aol/",
+            "https://cnn.com/api/",
+            "https://cnn.com/beta/",
+            "https://cnn.com/browsers/",
+            "https://cnn.com/cl/",
+            "https://cnn.com/cnews/",
+            "https://cnn.com/cnn_adspaces",
+            "https://cnn.com/cnnbeta/",
+            "https://cnn.com/cnnintl_adspaces",
+            "https://cnn.com/development",
+            "https://cnn.com/editionssi",
+            "https://cnn.com/games",
+            "https://cnn.com/help/cnnx.html",
+            "https://cnn.com/partners/",
+            "https://cnn.com/pipeline/",
+            "https://cnn.com/pointroll/",
+            "https://cnn.com/pr/",
+            "https://cnn.com/privacy",
+            "https://cnn.com/quickcast/",
+            "https://cnn.com/search",
+            "https://cnn.com/subscriptions/video-docs",
+            "https://cnn.com/terms",
+            "https://cnn.com/test/",
+            "https://cnn.com/virtual/",
+            "https://cnn.com/web.projects/",
+            "https://cnn.com/webview/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Ai2Bot-Dolma",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Brightbot 1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "img2dataset",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Sidetrade indexer bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Timpibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ISSCyberRiskCrawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Kangaroo Bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SemrushBot-SWA",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/sponsor"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250417234905",
+    "agents_removed": [
+      "OAI-SearchBot"
+    ]
+  },
+  {
+    "timestamp": "20250426150703",
+    "agents_added": [
+      "OAI-SearchBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250617182538",
+    "agents_removed": [
+      "Applebot"
+    ]
+  },
+  {
+    "timestamp": "20250801131057",
+    "agents_added": [
+      "EchoboxBot",
+      "Panscient",
+      "QuillBot",
+      "SBIntuitionsBot",
+      "YandexAdditional",
+      "YandexAdditionalBot",
+      "quillbot.com"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "YandexAdditional",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "SBIntuitionsBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "QuillBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "quillbot.com",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Panscient",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "EchoboxBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "YandexAdditionalBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnn.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20251005004833",
+    "agents_removed": [
+      "PerplexityBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://cnn.com/games"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "timestamp": "20230101013105",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/*.pdf",
+            "https://aarp.org/.4/",
+            "https://aarp.org/.AARP/",
+            "https://aarp.org/.Dev/",
+            "https://aarp.org/.PARA/",
+            "https://aarp.org/.Ver/",
+            "https://aarp.org/.br/",
+            "https://aarp.org/.com/",
+            "https://aarp.org/benefits-discounts/*/*/.appsec/",
+            "https://aarp.org/benefits-discounts/*/.appsec/",
+            "https://aarp.org/benefits-discounts/aarp-membership-and-benefits-onboarding-videos/",
+            "https://aarp.org/benefits-discounts/all/aarp-resume-advisor/.appsec/",
+            "https://aarp.org/benefits-discounts/all/avis-rent-a-car-10043/.appsec/",
+            "https://aarp.org/benefits-discounts/all/bmi-calculator.html",
+            "https://aarp.org/benefits-discounts/all/british-airways-10047/.appsec/",
+            "https://aarp.org/benefits-discounts/all/consumer-cellular-10002/.appsec/",
+            "https://aarp.org/benefits-discounts/all/days-inn-by-wyndham-101691.../",
+            "https://aarp.org/benefits-discounts/all/eyemed-vision-insurance/.appsec/",
+            "https://aarp.org/benefits-discounts/all/lto/",
+            "https://aarp.org/benefits-discounts/all/the-ups-store-online-printing/",
+            "https://aarp.org/benefits-discounts/all/uhc-medicare-supplement/.appsec/",
+            "https://aarp.org/benefits-discounts/all/walgreens-10181.html,/",
+            "https://aarp.org/benefits-discounts/all/walgreens-pharmacy-11555/.appsec/",
+            "https://aarp.org/benefits-discounts/car-rental-discounts/",
+            "https://aarp.org/benefits-discounts/discounts/dining/",
+            "https://aarp.org/benefits-discounts/discounts/fitness/?intcmp=ASI-RR-ENT-FITNESS",
+            "https://aarp.org/benefits-discounts/entertainment-discounts/",
+            "https://aarp.org/benefits-discounts/explore-your-aarp-membership/",
+            "https://aarp.org/benefits-discounts/flight-discounts/",
+            "https://aarp.org/benefits-discounts/hotel-discounts/",
+            "https://aarp.org/benefits-discounts/my-membership/info-2017/...html",
+            "https://aarp.org/benefits-discounts/restaurant-discounts/",
+            "https://aarp.org/benefits-discounts/travel-discounts/",
+            "https://aarp.org/benefits-discounts/travel-discounts/cruises.html",
+            "https://aarp.org/benefits-discounts/travel-discounts/hotels-midrange/",
+            "https://aarp.org/benefits-discounts/weight-watchers/",
+            "https://aarp.org/benefits/",
+            "https://aarp.org/content/aarpe/en/home/",
+            "https://aarp.org/content/aarpe/en/home/vendor/",
+            "https://aarp.org/content/campaigns/aarp/master/user-states/",
+            "https://aarp.org/content/specialized-membership/staying-sharp/",
+            "https://aarp.org/espanol/busqueda/",
+            "https://aarp.org/espanol/vendor/",
+            "https://aarp.org/everywhere-configuration/",
+            "https://aarp.org/everywhere/",
+            "https://aarp.org/playground-for-testing-stuff/",
+            "https://aarp.org/qa/",
+            "https://aarp.org/relationships/caregiving/",
+            "https://aarp.org/search/",
+            "https://aarp.org/secure-information/",
+            "https://aarp.org/training-aarpe/",
+            "https://aarp.org/vendor/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230111160326",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/content/aarpe/es/home/",
+            "https://aarp.org/content/aarpe/es/home/vendor/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230112163631",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/content/dam/aarp/aarp_foundation/",
+            "https://aarp.org/content/dam/aarp/about_aarp/",
+            "https://aarp.org/content/dam/aarp/health/",
+            "https://aarp.org/content/dam/aarp/home-and-family/",
+            "https://aarp.org/content/dam/aarp/livable-communities/",
+            "https://aarp.org/content/dam/aarp/money/",
+            "https://aarp.org/content/dam/aarp/politics/",
+            "https://aarp.org/content/dam/aarp/ppi/",
+            "https://aarp.org/content/dam/aarp/projects/",
+            "https://aarp.org/content/dam/aarp/relationships/",
+            "https://aarp.org/content/dam/aarp/research/",
+            "https://aarp.org/content/dam/aarp/technology/",
+            "https://aarp.org/content/dam/aarp/ws/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230117225749",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/content/dam/aarp/Membership/",
+            "https://aarp.org/content/dam/aarp/caregiving/",
+            "https://aarp.org/content/dam/aarp/disrupt_aging/",
+            "https://aarp.org/content/dam/aarp/rewards/",
+            "https://aarp.org/content/dam/aarp/ryv-test/",
+            "https://aarp.org/content/dam/aarp/states/",
+            "https://aarp.org/content/dam/aarp/work-and-retirement/",
+            "https://aarp.org/content/dam/aarp/work/",
+            "https://aarp.org/content/dam/aarp_media_library/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230119212618",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://aarp.org/content/dam/aarp/Membership/",
+            "https://aarp.org/content/dam/aarp/aarp_foundation/",
+            "https://aarp.org/content/dam/aarp/about_aarp/",
+            "https://aarp.org/content/dam/aarp/caregiving/",
+            "https://aarp.org/content/dam/aarp/disrupt_aging/",
+            "https://aarp.org/content/dam/aarp/health/",
+            "https://aarp.org/content/dam/aarp/home-and-family/",
+            "https://aarp.org/content/dam/aarp/livable-communities/",
+            "https://aarp.org/content/dam/aarp/money/",
+            "https://aarp.org/content/dam/aarp/politics/",
+            "https://aarp.org/content/dam/aarp/ppi/",
+            "https://aarp.org/content/dam/aarp/projects/",
+            "https://aarp.org/content/dam/aarp/relationships/",
+            "https://aarp.org/content/dam/aarp/research/",
+            "https://aarp.org/content/dam/aarp/rewards/",
+            "https://aarp.org/content/dam/aarp/ryv-test/",
+            "https://aarp.org/content/dam/aarp/states/",
+            "https://aarp.org/content/dam/aarp/technology/",
+            "https://aarp.org/content/dam/aarp/work-and-retirement/",
+            "https://aarp.org/content/dam/aarp/work/",
+            "https://aarp.org/content/dam/aarp/ws/",
+            "https://aarp.org/content/dam/aarp_media_library/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230308184437",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/content/dam/aarp/Member-Benefits/AARP-Auto-Buying-Program-For-Member-Communications-Digital-Fulfillment.pdf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230408024329",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/content/experience-fragments/aarp/global/espanol/header/search-header-espanol/Target/_jcr_content/root/responsivegrid/experiencefragment.default.xf.html",
+            "https://aarp.org/content/experience-fragments/aarp/global/header-xf/master/_jcr_content/root/responsivegrid/experiencefragment.default.xf.html",
+            "https://aarp.org/content/experience-fragments/aarp/vendor/springboard-footer/advocacy-thin-footer.resource.root.html",
+            "https://aarp.org/content/experience-fragments/fragments/hpHeader/headerTarget/_jcr_content/root/responsivegrid/experiencefragment.default.xf.html"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230411215817",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/content/experience-fragments/aarp/vendor/acumen_wrapper/acumen-wrapper/master.footer.html"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230811195802",
+    "agents_added": [
+      "GPTBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231002182332",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/content/campaigns/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231108011356",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://aarp.org/content/experience-fragments/",
+            "https://aarp.org/content/experience-fragments/uxdia-folder-structure/en/features/rewards/authenticated-member-w-rewards/not-authenticated/_jcr_content/root/responsivegrid/experiencefragment.default.xf.html"
+          ]
+        }
+      }
+    ]
+  }
+]

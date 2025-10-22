@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "20230101001751",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnbc.com/appchart/*",
+            "https://cnbc.com/preview/",
+            "https://cnbc.com/proplayer",
+            "https://cnbc.com/search/",
+            "https://cnbc.com/undefined/"
+          ]
+        }
+      },
+      {
+        "user_agent": "googlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnbc.com/*mobile-native",
+            "https://cnbc.com/*native-android-mobile",
+            "https://cnbc.com/*native-android-tablet",
+            "https://cnbc.com/appchart/*",
+            "https://cnbc.com/preview/",
+            "https://cnbc.com/proplayer",
+            "https://cnbc.com/search/",
+            "https://cnbc.com/undefined/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230829145240",
+    "agents_added": [
+      "GPTBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnbc.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230926152356",
+    "rule_changes": [
+      {
+        "user_agent": "googlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnbc.com/search/*"
+          ],
+          "removed": [
+            "https://cnbc.com/search/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://cnbc.com/search/*"
+          ],
+          "removed": [
+            "https://cnbc.com/search/"
+          ]
+        }
+      }
+    ]
+  }
+]

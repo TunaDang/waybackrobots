@@ -1,0 +1,1782 @@
+[
+  {
+    "timestamp": "20230101000122",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230402120315",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230402121039",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230403190547",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230403190646",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230406082209",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230406084148",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230407153519",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230407153651",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230422195356",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230422210118",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230424203627",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230424203856",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230501000948",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230501002445",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230525110418",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230525124308",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230619190940",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230619194924",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230619201527",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230620094911",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230620115259",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230620130633",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230620134348",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230720001938",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230720061253",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230724112749",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230724123349",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230725162921",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230725163536",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230726193401",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230726201925",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230726215851",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230726232429",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230727231324",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230728003154",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230804003923",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230804004323",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230804150655",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230804154306",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230805193411",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230805195016",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230805202142",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230805210514",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230806032907",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230806033752",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230807114156",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230807121511",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230811205159",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230811205900",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230813051638",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230813054256",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230813193950",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230813211347",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230815211653",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230815223947",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230817063718",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230817075422",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230818171928",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230818225618",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230821061817",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230821062548",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230825004408",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230825024035",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230825063946",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230825074756",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230827203200",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230827203548",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230829195026",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230829225739",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230906221204",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230906224740",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230909160023",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230909161927",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230911034616",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230911072739",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230915021208",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230915023228",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230920073709",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230920080711",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230930055105",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230930055316",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230930062749",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230930063157",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230930160248",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230930160752",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230930185159",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230930185620",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230930222016",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231001104917",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20231002022620",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231002022620",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20231002022621",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://yahoo.com/_multiremote",
+            "https://yahoo.com/_remote",
+            "https://yahoo.com/_td_api",
+            "https://yahoo.com/_tdhl_api",
+            "https://yahoo.com/_tdpp_api",
+            "https://yahoo.com/bin/",
+            "https://yahoo.com/blank.html",
+            "https://yahoo.com/caas/",
+            "https://yahoo.com/digest",
+            "https://yahoo.com/fp_ms",
+            "https://yahoo.com/fpjs",
+            "https://yahoo.com/includes/",
+            "https://yahoo.com/myjs",
+            "https://yahoo.com/nel_ms",
+            "https://yahoo.com/p/",
+            "https://yahoo.com/r/",
+            "https://yahoo.com/search_ms",
+            "https://yahoo.com/sports_fp_ms",
+            "https://yahoo.com/tdv2_fp"
+          ]
+        }
+      }
+    ]
+  }
+]

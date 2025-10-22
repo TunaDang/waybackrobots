@@ -1,0 +1,971 @@
+[
+  {
+    "timestamp": "20220316124220",
+    "initial_content": [
+      {
+        "user_agent": "beta.windstream.net",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/front_controller.php/search/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20221228032939",
+    "agents_removed": [
+      "*",
+      "beta.windstream.net"
+    ]
+  },
+  {
+    "timestamp": "20221230000456",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/front_controller.php/search/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      },
+      {
+        "user_agent": "beta.windstream.net",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230129204132",
+    "agents_removed": [
+      "*",
+      "beta.windstream.net"
+    ]
+  },
+  {
+    "timestamp": "20230211174825",
+    "initial_content": [
+      {
+        "user_agent": "beta.windstream.net",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/front_controller.php/search/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230215114430",
+    "agents_removed": [
+      "beta.windstream.net"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/outbound/"
+          ],
+          "removed": [
+            "https://windstream.net/front_controller.php/search/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230503171557",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/User-agent: *"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230505022050",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://windstream.net/User-agent: *"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230601030452",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/User-agent: *"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230605220958",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://windstream.net/User-agent: *"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231223163237",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ],
+          "removed": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240130070534",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ],
+          "removed": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240212102323",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20240219120516",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240220215620",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20240222102334",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240330023446",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ],
+          "removed": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240411172559",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ],
+          "removed": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240423053550",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ],
+          "removed": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240514044055",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ],
+          "removed": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240518051453",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ],
+          "removed": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240608121309",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ],
+          "removed": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240609112050",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ],
+          "removed": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240807030231",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ],
+          "removed": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240812193302",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ],
+          "removed": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20241027201758",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ],
+          "removed": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20241114052940",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ],
+          "removed": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250329033924",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ],
+          "removed": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250501155315",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/"
+          ],
+          "removed": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250806113151",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://windstream.net/*?*e-mail=",
+            "https://windstream.net/*?*email=",
+            "https://windstream.net/*?*u_d=",
+            "https://windstream.net/ajaxapi/login.php",
+            "https://windstream.net/files/",
+            "https://windstream.net/google/",
+            "https://windstream.net/hdtv/login.php",
+            "https://windstream.net/library/",
+            "https://windstream.net/login.php",
+            "https://windstream.net/login_proxy.php",
+            "https://windstream.net/movies_channel/login.php",
+            "https://windstream.net/outbound/",
+            "https://windstream.net/provisioning/",
+            "https://windstream.net/provisioning/client_login.php",
+            "https://windstream.net/provisioning/login.php",
+            "https://windstream.net/provisioning2/login.php",
+            "https://windstream.net/search/",
+            "https://windstream.net/store/login.php",
+            "https://windstream.net/templates/maya/components/login.php",
+            "https://windstream.net/templates/maya/components/login_delph.php",
+            "https://windstream.net/toolbar2/files/generics/login.php",
+            "https://windstream.net/tv/login.php",
+            "https://windstream.net/tv_movies/login.php",
+            "https://windstream.net/yummy/ilogin.php",
+            "https://windstream.net/zmail/zmpage_login.php"
+          ],
+          "removed": [
+            "https://windstream.net/"
+          ]
+        }
+      }
+    ]
+  }
+]

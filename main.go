@@ -33,7 +33,7 @@ type VersionContent struct {
 }
 
 func main() {
-	versionsLimit := flag.Int("limit", 100, "limit the number crawled snapshots. Use -1 for unlimited")
+	versionsLimit := flag.Int("limit", 10, "limit the number crawled snapshots. Use -1 for unlimited")
 	recent := flag.Bool("recent", true, "use the most recent snapshots without evenly distributing them")
 	timeline := flag.Bool("timeline", false, "show a timeline of changes in robots.txt")
 	year := flag.Int("year", 0, "specify a year to fetch timeline changes for (e.g., 2023). Overrides -limit and -recent.")
@@ -461,31 +461,33 @@ func writeTimelineOutput(u string, versionContents []VersionContent, year int, o
 	// --- Process versions to find changes and collect files to zip ---
 	for _, vc := range versionContents {
 		entry := timelineEntry{Timestamp: vc.Timestamp}
-		hasChanges := false
+		isMeaningfulChange := false
 
 		if previousRules == nil {
 			// --- Initial version (for JSON) ---
-			hasChanges = true // The first entry is always included in the timeline
-			for agent, rules := range vc.Rules {
-				allows := []string{}
-				disallows := []string{}
-				for path, directive := range rules {
-					if directive == "allow" {
-						allows = append(allows, path)
-					} else {
-						disallows = append(disallows, path)
+			if vc.Rules != nil && len(vc.Rules) > 0 {
+				isMeaningfulChange = true // The first entry is a change if it has content
+				for agent, rules := range vc.Rules {
+					allows := []string{}
+					disallows := []string{}
+					for path, directive := range rules {
+						if directive == "allow" {
+							allows = append(allows, path)
+						} else {
+							disallows = append(disallows, path)
+						}
 					}
+					sort.Strings(allows)
+					sort.Strings(disallows)
+					change := ruleChange{UserAgent: agent}
+					if len(allows) > 0 {
+						change.Allow.Added = allows
+					}
+					if len(disallows) > 0 {
+						change.Disallow.Added = disallows
+					}
+					entry.InitialContent = append(entry.InitialContent, change)
 				}
-				sort.Strings(allows)
-				sort.Strings(disallows)
-				change := ruleChange{UserAgent: agent}
-				if len(allows) > 0 {
-					change.Allow.Added = allows
-				}
-				if len(disallows) > 0 {
-					change.Disallow.Added = disallows
-				}
-				entry.InitialContent = append(entry.InitialContent, change)
 			}
 		} else {
 			// --- Compare with previous version (for JSON and raw file logic) ---
@@ -513,7 +515,7 @@ func writeTimelineOutput(u string, versionContents []VersionContent, year int, o
 						change.Disallow.Added = disallows
 					}
 					entry.RuleChanges = append(entry.RuleChanges, change)
-					hasChanges = true
+					isMeaningfulChange = true
 				}
 			}
 			sort.Strings(entry.AgentsAdded)
@@ -522,7 +524,7 @@ func writeTimelineOutput(u string, versionContents []VersionContent, year int, o
 			for agent := range previousRules {
 				if _, exists := vc.Rules[agent]; !exists {
 					entry.AgentsRemoved = append(entry.AgentsRemoved, agent)
-					hasChanges = true
+					isMeaningfulChange = true
 				}
 			}
 			sort.Strings(entry.AgentsRemoved)
@@ -537,14 +539,14 @@ func writeTimelineOutput(u string, versionContents []VersionContent, year int, o
 						change.Allow = changeSet{Added: addedAllows, Removed: removedAllows}
 						change.Disallow = changeSet{Added: addedDisallows, Removed: removedDisallows}
 						entry.RuleChanges = append(entry.RuleChanges, change)
-						hasChanges = true
+						isMeaningfulChange = true
 					}
 				}
 			}
 		}
 
 		// --- Collect raw .txt file content if this is the first one or if there are changes ---
-		if (previousRules == nil || hasChanges) && vc.RawContent != "" {
+		if isMeaningfulChange && vc.RawContent != "" {
 			if year > 0 {
 				// If year is specified, add to zip map instead of writing directly
 				fileName := fmt.Sprintf("robots_%s.txt", vc.Timestamp)
@@ -560,7 +562,7 @@ func writeTimelineOutput(u string, versionContents []VersionContent, year int, o
 			}
 		}
 
-		if hasChanges {
+		if isMeaningfulChange {
 			timeline = append(timeline, entry)
 		}
 		previousRules = vc.Rules
@@ -596,20 +598,25 @@ func writeTimelineOutput(u string, versionContents []VersionContent, year int, o
 	}
 
 	// --- Write the JSON timeline.json file ---
-	jsonFilePath := filepath.Join(dirPath, jsonFileName)
-	file, err := os.Create(jsonFilePath)
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error creating file %s: %v\n", jsonFilePath, err)
-		return
-	}
-	defer file.Close()
+	// Only write the file if there's something to write
+	if len(timeline) > 0 {
+		jsonFilePath := filepath.Join(dirPath, jsonFileName)
+		file, err := os.Create(jsonFilePath)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Error creating file %s: %v\n", jsonFilePath, err)
+			return
+		}
+		defer file.Close()
 
-	encoder := json.NewEncoder(file)
-	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(timeline); err != nil {
-		fmt.Fprintf(os.Stderr, "Error writing JSON to %s: %v\n", jsonFilePath, err)
+		encoder := json.NewEncoder(file)
+		encoder.SetIndent("", "  ")
+		if err := encoder.Encode(timeline); err != nil {
+			fmt.Fprintf(os.Stderr, "Error writing JSON to %s: %v\n", jsonFilePath, err)
+		} else {
+			fmt.Fprintf(os.Stderr, "Wrote timeline to %s\n", jsonFilePath)
+		}
 	} else {
-		fmt.Fprintf(os.Stderr, "Wrote timeline to %s\n", jsonFilePath)
+		fmt.Fprintf(os.Stderr, "No meaningful changes found for %s in %d. No timeline file written.\n", u, year)
 	}
 }
 

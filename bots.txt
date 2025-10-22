@@ -1,0 +1,33 @@
+This is a list of common user-agents for traditional search engines and generative AI crawlers, as seen in robots.txt files.
+
+### Search Engine Crawlers (Traditional Search)
+These bots are primarily used to index content for traditional search engine results pages.
+
+User-agent: Googlebot
+Operator: Google
+Purpose: The main crawler for Google Search. It indexes web pages to be included in Google's search results.
+
+User-agent: Bingbot
+Operator: Microsoft
+Purpose: The main crawler for Microsoft's Bing search engine.
+
+
+### Generative AI Crawlers (AI Training & Answers)
+These are newer bots that sites may block to prevent their content from being used for AI training or in generative AI answers.
+
+User-agent: Google-Extended
+Operator: Google
+Purpose: This is Google's crawler token for AI. Blocking it is intended to prevent a site's content from being used to train Google's generative models, like Gemini.
+Note: According to Google, blocking Google-Extended does not prevent content from appearing in "AI Overviews," which are considered part of the main Googlebot search product.
+
+User-agent: GPTBot
+Operator: OpenAI
+Purpose: This bot scrapes content specifically to train OpenAI's models, including ChatGPT.
+
+User-agent: Claude-SearchBot
+Operator: Anthropic
+Purpose: This bot is used by the AI assistant Claude to fetch real-time information to answer user questions with citations.
+
+User-agent: PerplexityBot
+Operator: Perplexity AI
+Purpose: The web crawler for the Perplexity AI search engine. It indexes the web to provide direct, cited answers to user queries.

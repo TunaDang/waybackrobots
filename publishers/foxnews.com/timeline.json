@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "20230101001006",
+    "timestamp": "20250206141125",
     "initial_content": [
       {
         "user_agent": "*",
@@ -11,20 +11,21 @@
             "https://foxnews.com/printer_friendly_wires/",
             "https://foxnews.com/search-results/",
             "https://foxnews.com/video-search/",
-            "https://foxnews.com/wires/"
+            "https://foxnews.com/wires/",
+            "https://foxnews.com/xid"
           ]
         }
       }
     ]
   },
   {
-    "timestamp": "20230327053338",
+    "timestamp": "20250210200327",
     "agents_removed": [
       "*"
     ]
   },
   {
-    "timestamp": "20230327054409",
+    "timestamp": "20250211043251",
     "initial_content": [
       {
         "user_agent": "*",
@@ -35,20 +36,7 @@
             "https://foxnews.com/printer_friendly_wires/",
             "https://foxnews.com/search-results/",
             "https://foxnews.com/video-search/",
-            "https://foxnews.com/wires/"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "timestamp": "20230911201539",
-    "rule_changes": [
-      {
-        "user_agent": "*",
-        "allow": {},
-        "disallow": {
-          "added": [
+            "https://foxnews.com/wires/",
             "https://foxnews.com/xid"
           ]
         }
@@ -56,27 +44,24 @@
     ]
   },
   {
-    "timestamp": "20230914131233",
-    "rule_changes": [
-      {
-        "user_agent": "*",
-        "allow": {},
-        "disallow": {
-          "removed": [
-            "https://foxnews.com/xid"
-          ]
-        }
-      }
+    "timestamp": "20250426063836",
+    "agents_removed": [
+      "*"
     ]
   },
   {
-    "timestamp": "20230914131237",
-    "rule_changes": [
+    "timestamp": "20250428050915",
+    "initial_content": [
       {
         "user_agent": "*",
         "allow": {},
         "disallow": {
           "added": [
+            "https://foxnews.com/printer_friendly_story/",
+            "https://foxnews.com/printer_friendly_wires/",
+            "https://foxnews.com/search-results/",
+            "https://foxnews.com/video-search/",
+            "https://foxnews.com/wires/",
             "https://foxnews.com/xid"
           ]
         }

@@ -1,0 +1,65 @@
+[
+  {
+    "timestamp": "20230101000326",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://bleacherreport.com/*/archives",
+            "https://bleacherreport.com/AAMSZ=160x600",
+            "https://bleacherreport.com/AAMSZ=300x250",
+            "https://bleacherreport.com/AAMSZ=728x90",
+            "https://bleacherreport.com/account",
+            "https://bleacherreport.com/accounts",
+            "https://bleacherreport.com/activities",
+            "https://bleacherreport.com/add_to_blacklist",
+            "https://bleacherreport.com/admin",
+            "https://bleacherreport.com/api",
+            "https://bleacherreport.com/archives",
+            "https://bleacherreport.com/bets/iframe",
+            "https://bleacherreport.com/login",
+            "https://bleacherreport.com/long_poll",
+            "https://bleacherreport.com/more",
+            "https://bleacherreport.com/new_writer",
+            "https://bleacherreport.com/newsletter_subscriptions",
+            "https://bleacherreport.com/oembed",
+            "https://bleacherreport.com/signup",
+            "https://bleacherreport.com/users",
+            "https://bleacherreport.com/users/ranking",
+            "https://bleacherreport.com/users/undefined"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230404235612",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://bleacherreport.com/more"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230501162800",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://bleacherreport.com/user_post"
+          ]
+        }
+      }
+    ]
+  }
+]

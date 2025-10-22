@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "20230101074943",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://gma.yahoo.com/"
+          ]
+        }
+      }
+    ]
+  }
+]

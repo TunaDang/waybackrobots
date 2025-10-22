@@ -1,0 +1,40 @@
+[
+  {
+    "timestamp": "20241229232425",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/",
+            "https://foxsports.com/xid"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250122153259",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20250122220028",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/",
+            "https://foxsports.com/xid"
+          ]
+        }
+      }
+    ]
+  }
+]

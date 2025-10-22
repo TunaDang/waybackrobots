@@ -1,0 +1,2087 @@
+[
+  {
+    "timestamp": "20230101000100",
+    "initial_content": [
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*after=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      },
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230214190956",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://reddit.com/*after="
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230223200858",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/errors$"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230325211205",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230326023353",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230326024819",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230326053151",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230326080650",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230326095725",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230326100418",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230406061334",
+    "initial_content": [
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      },
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230406061815",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230409194649",
+    "initial_content": [
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      },
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230409194921",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230411230441",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      },
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230411230445",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230415041114",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230415050935",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230416210649",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230416211535",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230424083205",
+    "initial_content": [
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      },
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230424090551",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230425223418",
+    "initial_content": [
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      },
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230426023400",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230430213214",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230430214133",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230503180415",
+    "initial_content": [
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      },
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230503184653",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230504152755",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230504160618",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230516193120",
+    "initial_content": [
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      },
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230516193801",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230517222643",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230517224652",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  },
+  {
+    "timestamp": "20230530032528",
+    "initial_content": [
+      {
+        "user_agent": "008",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "voltron",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "bender",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/my_shiny_metal_ass"
+          ]
+        }
+      },
+      {
+        "user_agent": "Gort",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/earth"
+          ]
+        }
+      },
+      {
+        "user_agent": "MJ12bot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PiplBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://reddit.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://reddit.com/",
+            "https://reddit.com/posts/*",
+            "https://reddit.com/r/*.rss",
+            "https://reddit.com/sitemaps/*.xml"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://reddit.com/*.embed",
+            "https://reddit.com/*.i",
+            "https://reddit.com/*.json",
+            "https://reddit.com/*.json-compact",
+            "https://reddit.com/*.json-html",
+            "https://reddit.com/*.rss",
+            "https://reddit.com/*.xml",
+            "https://reddit.com/*/comment/*",
+            "https://reddit.com/*/comments/*?*sort=",
+            "https://reddit.com/*?*feed=",
+            "https://reddit.com/*before=",
+            "https://reddit.com/api",
+            "https://reddit.com/buttonlite.js",
+            "https://reddit.com/counters/client-screenview",
+            "https://reddit.com/domain/*t=",
+            "https://reddit.com/errors$",
+            "https://reddit.com/gold?",
+            "https://reddit.com/goto",
+            "https://reddit.com/login",
+            "https://reddit.com/message/compose*",
+            "https://reddit.com/post",
+            "https://reddit.com/r/*/comments/*.rss",
+            "https://reddit.com/r/*/config/*.rss",
+            "https://reddit.com/r/*/submit$",
+            "https://reddit.com/r/*/submit/$",
+            "https://reddit.com/r/*/user/",
+            "https://reddit.com/r/*/wiki/*.rss",
+            "https://reddit.com/remove_email/t2_*",
+            "https://reddit.com/static/button/button1.html",
+            "https://reddit.com/static/button/button1.js",
+            "https://reddit.com/static/button/button2.html",
+            "https://reddit.com/static/button/button3.html",
+            "https://reddit.com/submit",
+            "https://reddit.com/svc/shreddit/*",
+            "https://reddit.com/timings/perf"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230530033422",
+    "agents_removed": [
+      "*",
+      "008",
+      "Gort",
+      "MJ12bot",
+      "PiplBot",
+      "bender",
+      "voltron"
+    ]
+  }
+]

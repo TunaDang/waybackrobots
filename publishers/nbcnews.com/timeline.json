@@ -1,0 +1,1774 @@
+[
+  {
+    "timestamp": "20240911155008",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20240923140445",
+    "agents_added": [
+      "Amazonbot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "DataForSeoBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Meta-ExternalAgent",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PerplexityBot",
+      "Scrapy",
+      "TurnitinBot",
+      "Twitterbot",
+      "anthropic-ai",
+      "cohere-ai",
+      "magpie-crawler",
+      "meta-externalagent",
+      "news-please",
+      "omgili",
+      "omgilibot",
+      "peer39_crawler",
+      "peer39_crawler/1.0"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "meta-externalagent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler/1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Twitterbot",
+        "allow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard="
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard=",
+            "https://nbcnews.com/*ns/local_news*",
+            "https://nbcnews.com/bentoapi/",
+            "https://nbcnews.com/error404.aspx",
+            "https://nbcnews.com/pages/news-connect",
+            "https://nbcnews.com/pages/search/",
+            "https://nbcnews.com/search/",
+            "https://nbcnews.com/widget/"
+          ],
+          "removed": [
+            "https://nbcnews.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20241112113749",
+    "agents_removed": [
+      "*",
+      "Amazonbot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "DataForSeoBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Meta-ExternalAgent",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PerplexityBot",
+      "Scrapy",
+      "TurnitinBot",
+      "Twitterbot",
+      "anthropic-ai",
+      "cohere-ai",
+      "magpie-crawler",
+      "meta-externalagent",
+      "news-please",
+      "omgili",
+      "omgilibot",
+      "peer39_crawler",
+      "peer39_crawler/1.0"
+    ]
+  },
+  {
+    "timestamp": "20241112204151",
+    "initial_content": [
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "meta-externalagent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler/1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard=",
+            "https://nbcnews.com/*ns/local_news*",
+            "https://nbcnews.com/bentoapi/",
+            "https://nbcnews.com/error404.aspx",
+            "https://nbcnews.com/pages/news-connect",
+            "https://nbcnews.com/pages/search/",
+            "https://nbcnews.com/search/",
+            "https://nbcnews.com/widget/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Twitterbot",
+        "allow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard="
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20241204142118",
+    "agents_removed": [
+      "Amazonbot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "DataForSeoBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Meta-ExternalAgent",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PerplexityBot",
+      "Scrapy",
+      "TurnitinBot",
+      "Twitterbot",
+      "anthropic-ai",
+      "cohere-ai",
+      "magpie-crawler",
+      "meta-externalagent",
+      "news-please",
+      "omgili",
+      "omgilibot",
+      "peer39_crawler",
+      "peer39_crawler/1.0"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ],
+          "removed": [
+            "https://nbcnews.com/*?*canonicalCard=",
+            "https://nbcnews.com/*ns/local_news*",
+            "https://nbcnews.com/bentoapi/",
+            "https://nbcnews.com/error404.aspx",
+            "https://nbcnews.com/pages/news-connect",
+            "https://nbcnews.com/pages/search/",
+            "https://nbcnews.com/search/",
+            "https://nbcnews.com/widget/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20241207030337",
+    "agents_added": [
+      "Amazonbot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "DataForSeoBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Meta-ExternalAgent",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PerplexityBot",
+      "Scrapy",
+      "TurnitinBot",
+      "Twitterbot",
+      "anthropic-ai",
+      "cohere-ai",
+      "magpie-crawler",
+      "meta-externalagent",
+      "news-please",
+      "omgili",
+      "omgilibot",
+      "peer39_crawler",
+      "peer39_crawler/1.0"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "meta-externalagent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler/1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Twitterbot",
+        "allow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard="
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard=",
+            "https://nbcnews.com/*ns/local_news*",
+            "https://nbcnews.com/bentoapi/",
+            "https://nbcnews.com/error404.aspx",
+            "https://nbcnews.com/pages/news-connect",
+            "https://nbcnews.com/pages/search/",
+            "https://nbcnews.com/search/",
+            "https://nbcnews.com/widget/"
+          ],
+          "removed": [
+            "https://nbcnews.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20241207031755",
+    "agents_removed": [
+      "Amazonbot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "DataForSeoBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Meta-ExternalAgent",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PerplexityBot",
+      "Scrapy",
+      "TurnitinBot",
+      "Twitterbot",
+      "anthropic-ai",
+      "cohere-ai",
+      "magpie-crawler",
+      "meta-externalagent",
+      "news-please",
+      "omgili",
+      "omgilibot",
+      "peer39_crawler",
+      "peer39_crawler/1.0"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ],
+          "removed": [
+            "https://nbcnews.com/*?*canonicalCard=",
+            "https://nbcnews.com/*ns/local_news*",
+            "https://nbcnews.com/bentoapi/",
+            "https://nbcnews.com/error404.aspx",
+            "https://nbcnews.com/pages/news-connect",
+            "https://nbcnews.com/pages/search/",
+            "https://nbcnews.com/search/",
+            "https://nbcnews.com/widget/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20241222122448",
+    "agents_added": [
+      "Amazonbot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "DataForSeoBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Meta-ExternalAgent",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PerplexityBot",
+      "Scrapy",
+      "TurnitinBot",
+      "Twitterbot",
+      "anthropic-ai",
+      "cohere-ai",
+      "magpie-crawler",
+      "meta-externalagent",
+      "news-please",
+      "omgili",
+      "omgilibot",
+      "peer39_crawler",
+      "peer39_crawler/1.0"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "meta-externalagent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler/1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Twitterbot",
+        "allow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard="
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard=",
+            "https://nbcnews.com/*ns/local_news*",
+            "https://nbcnews.com/bentoapi/",
+            "https://nbcnews.com/error404.aspx",
+            "https://nbcnews.com/pages/news-connect",
+            "https://nbcnews.com/pages/search/",
+            "https://nbcnews.com/search/",
+            "https://nbcnews.com/widget/"
+          ],
+          "removed": [
+            "https://nbcnews.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250102182223",
+    "agents_removed": [
+      "*",
+      "Amazonbot",
+      "Applebot-Extended",
+      "AwarioRssBot",
+      "AwarioSmartBot",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "DataForSeoBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Meta-ExternalAgent",
+      "NewsNow",
+      "OAI-SearchBot",
+      "PerplexityBot",
+      "Scrapy",
+      "TurnitinBot",
+      "Twitterbot",
+      "anthropic-ai",
+      "cohere-ai",
+      "magpie-crawler",
+      "meta-externalagent",
+      "news-please",
+      "omgili",
+      "omgilibot",
+      "peer39_crawler",
+      "peer39_crawler/1.0"
+    ]
+  },
+  {
+    "timestamp": "20250105175121",
+    "initial_content": [
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioSmartBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "NewsNow",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler/1.0",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Scrapy",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DataForSeoBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard=",
+            "https://nbcnews.com/*ns/local_news*",
+            "https://nbcnews.com/bentoapi/",
+            "https://nbcnews.com/error404.aspx",
+            "https://nbcnews.com/pages/news-connect",
+            "https://nbcnews.com/pages/search/",
+            "https://nbcnews.com/search/",
+            "https://nbcnews.com/widget/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Meta-ExternalAgent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "news-please",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgili",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "AwarioRssBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "meta-externalagent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "peer39_crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Twitterbot",
+        "allow": {
+          "added": [
+            "https://nbcnews.com/*?*canonicalCard="
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250731224050",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://nbcnews.com/akam/"
+          ]
+        }
+      }
+    ]
+  }
+]

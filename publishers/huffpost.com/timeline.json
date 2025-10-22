@@ -1,0 +1,1249 @@
+[
+  {
+    "timestamp": "20250117101038",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/*?*page=",
+            "https://huffpost.com/embed",
+            "https://huffpost.com/mapi/v4/*/user/*",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "google-extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "grapeshot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250124141158",
+    "agents_removed": [
+      "*",
+      "Amazonbot",
+      "Applebot-Extended",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Googlebot",
+      "PerplexityBot",
+      "TurnitinBot",
+      "anthropic-ai",
+      "cohere-ai",
+      "google-extended",
+      "grapeshot",
+      "magpie-crawler"
+    ]
+  },
+  {
+    "timestamp": "20250124182655",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/*?*page=",
+            "https://huffpost.com/embed",
+            "https://huffpost.com/mapi/v4/*/user/*",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "google-extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "grapeshot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250209162522",
+    "agents_removed": [
+      "*",
+      "Amazonbot",
+      "Applebot-Extended",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Googlebot",
+      "PerplexityBot",
+      "TurnitinBot",
+      "anthropic-ai",
+      "cohere-ai",
+      "google-extended",
+      "grapeshot",
+      "magpie-crawler"
+    ]
+  },
+  {
+    "timestamp": "20250209204431",
+    "initial_content": [
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "grapeshot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/*?*page=",
+            "https://huffpost.com/embed",
+            "https://huffpost.com/mapi/v4/*/user/*",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "google-extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250219065835",
+    "agents_removed": [
+      "*",
+      "Amazonbot",
+      "Applebot-Extended",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Googlebot",
+      "PerplexityBot",
+      "TurnitinBot",
+      "anthropic-ai",
+      "cohere-ai",
+      "google-extended",
+      "grapeshot",
+      "magpie-crawler"
+    ]
+  },
+  {
+    "timestamp": "20250228152234",
+    "initial_content": [
+      {
+        "user_agent": "grapeshot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "google-extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/*?*page=",
+            "https://huffpost.com/embed",
+            "https://huffpost.com/mapi/v4/*/user/*",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250411030529",
+    "agents_removed": [
+      "*",
+      "Amazonbot",
+      "Applebot-Extended",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "Diffbot",
+      "FacebookBot",
+      "GPTBot",
+      "Google-Extended",
+      "Googlebot",
+      "PerplexityBot",
+      "TurnitinBot",
+      "anthropic-ai",
+      "cohere-ai",
+      "google-extended",
+      "grapeshot",
+      "magpie-crawler"
+    ]
+  },
+  {
+    "timestamp": "20250414204908",
+    "initial_content": [
+      {
+        "user_agent": "Claude-Web",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "PerplexityBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/*?*page=",
+            "https://huffpost.com/embed",
+            "https://huffpost.com/mapi/v4/*/user/*",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "ClaudeBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "anthropic-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "cohere-ai",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Diffbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "FacebookBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "google-extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "magpie-crawler",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "grapeshot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "Amazonbot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ChatGPT-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      },
+      {
+        "user_agent": "TurnitinBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Applebot-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250427012307",
+    "agents_added": [
+      "Bytespider",
+      "DuckAssistBot",
+      "OAI-SearchBot",
+      "Perplexity-User",
+      "Timpibot",
+      "meta-externalagent"
+    ],
+    "agents_removed": [
+      "google-extended"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Perplexity-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Timpibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "meta-externalagent",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "OAI-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Bytespider",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "DuckAssistBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250522222214",
+    "agents_added": [
+      "Scope3/2.0 (scope3.com)"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Scope3/2.0 (scope3.com)",
+        "allow": {
+          "added": [
+            "https://huffpost.com/$",
+            "https://huffpost.com/*"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*?*err_code=404",
+            "https://huffpost.com/*?*page=",
+            "https://huffpost.com/embed",
+            "https://huffpost.com/mapi/v4/*/user/*",
+            "https://huffpost.com/member",
+            "https://huffpost.com/search",
+            "https://huffpost.com/search/?*"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250707070508",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/*/webview"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20250801014540",
+    "agents_added": [
+      "Meta-ExternalFetcher"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Meta-ExternalFetcher",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20251006111721",
+    "agents_added": [
+      "Ai2Bot-Dolma",
+      "Claude-SearchBot",
+      "Claude-User",
+      "TtoYouBot",
+      "WebGPTBot",
+      "omgilibot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Claude-SearchBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "omgilibot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "TtoYouBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "WebGPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Claude-User",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Ai2Bot-Dolma",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://huffpost.com/"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "timestamp": "20230101021942",
+    "initial_content": [
+      {
+        "user_agent": "oodlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://ksl.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Clickagy Intelligence Bot v2",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://ksl.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://ksl.com/public/member/login",
+            "https://ksl.com/public/member/new"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://ksl.com/*?print=1",
+            "https://ksl.com/*format/html",
+            "https://ksl.com/*nid=1070",
+            "https://ksl.com/ad_logger/",
+            "https://ksl.com/ajax/yahoo_stocks.php",
+            "https://ksl.com/auto/search/ad-carousel",
+            "https://ksl.com/auto/stat/",
+            "https://ksl.com/homes/stat/",
+            "https://ksl.com/jobs/emailafriend/",
+            "https://ksl.com/jobs/stat/",
+            "https://ksl.com/public/cmscommentAbuse/",
+            "https://ksl.com/public/member/"
+          ]
+        }
+      },
+      {
+        "user_agent": "ksl-crawler",
+        "allow": {
+          "added": [
+            "https://ksl.com/"
+          ]
+        },
+        "disallow": {}
+      }
+    ]
+  }
+]

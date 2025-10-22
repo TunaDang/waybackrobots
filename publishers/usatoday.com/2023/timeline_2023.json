@@ -1,0 +1,2575 @@
+[
+  {
+    "timestamp": "20230101045642",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230209201507",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/pbd/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230301141207",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230301142607",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230301143329",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230302113632",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230302135610",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230302142838",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230302212438",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230404193523",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230404203536",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230406002708",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230406003129",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230408023744",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230408053858",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230412060237",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230412062333",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230413125518",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230413125819",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230421094544",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230421102003",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230424131152",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230424134622",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230424172011",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230424183958",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230427032435",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230427084311",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230428202711",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230428212634",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230430171850",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230430221737",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230504171152",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230504172838",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230504235643",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230505003456",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230505010841",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230505014039",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230507132127",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230507163534",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230507205313",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230507205924",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230508122640",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230508125222",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230514192707",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230514202949",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230516141406",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230516142230",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230521192953",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230522040128",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230529063512",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230529064401",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230529145124",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230529184801",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230612101349",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230612101957",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230615042500",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230615043346",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230621014442",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230621040722",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230716111305",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230716145633",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230727190712",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230727194211",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230813082847",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230813194008",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230814105044",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230814105523",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230814192432",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230814194230",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230815034346",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230815044946",
+    "agents_removed": [
+      "*",
+      "Googlebot-News"
+    ]
+  },
+  {
+    "timestamp": "20230815141100",
+    "initial_content": [
+      {
+        "user_agent": "Googlebot-News",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/interactives/sponsor-story/",
+            "https://usatoday.com/longform/sponsor-story/",
+            "https://usatoday.com/pages/interactives/sponsor-story/",
+            "https://usatoday.com/picture-gallery/sponsor-story/",
+            "https://usatoday.com/story/sponsor-story/",
+            "https://usatoday.com/videos/embed/",
+            "https://usatoday.com/videos/sponsor-story/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/.cam-tangent/",
+            "https://usatoday.com/blended-newsletter/",
+            "https://usatoday.com/errors",
+            "https://usatoday.com/exp-beach",
+            "https://usatoday.com/exp-caribbean",
+            "https://usatoday.com/exp-cruise",
+            "https://usatoday.com/exp-cruise2",
+            "https://usatoday.com/exp-faw",
+            "https://usatoday.com/exp-las-vegas2",
+            "https://usatoday.com/facebook/",
+            "https://usatoday.com/feeds/",
+            "https://usatoday.com/gciaf/",
+            "https://usatoday.com/interactive/",
+            "https://usatoday.com/longform/draft/",
+            "https://usatoday.com/module-showcase/",
+            "https://usatoday.com/money/lookup/stocks/",
+            "https://usatoday.com/newsletter/",
+            "https://usatoday.com/optimus",
+            "https://usatoday.com/pbd/",
+            "https://usatoday.com/search",
+            "https://usatoday.com/services/",
+            "https://usatoday.com/sports/services/photos/",
+            "https://usatoday.com/story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/",
+            "https://usatoday.com/story/advisory/",
+            "https://usatoday.com/story/draft/",
+            "https://usatoday.com/story/nletter/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/",
+            "https://usatoday.com/story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/",
+            "https://usatoday.com/topic/*/smart/",
+            "https://usatoday.com/ugc/",
+            "https://usatoday.com/userauth/",
+            "https://usatoday.com/ux-train",
+            "https://usatoday.com/version-info/",
+            "https://usatoday.com/yourtake"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230830194505",
+    "agents_added": [
+      "GPTBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230912212952",
+    "agents_added": [
+      "CCBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "CCBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231204170224",
+    "agents_added": [
+      "Google-Extended"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://usatoday.com/"
+          ]
+        }
+      }
+    ]
+  }
+]

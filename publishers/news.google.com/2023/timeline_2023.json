@@ -1,0 +1,63 @@
+[
+  {
+    "timestamp": "20230101000044",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://news.google.com/$",
+            "https://news.google.com/?",
+            "https://news.google.com/about$",
+            "https://news.google.com/about/",
+            "https://news.google.com/about?",
+            "https://news.google.com/covid19/",
+            "https://news.google.com/news$",
+            "https://news.google.com/news/$",
+            "https://news.google.com/news/?gl=",
+            "https://news.google.com/news/?hl=",
+            "https://news.google.com/news/?ned=",
+            "https://news.google.com/nwshp$",
+            "https://news.google.com/publications/",
+            "https://news.google.com/stories/",
+            "https://news.google.com/swg/",
+            "https://news.google.com/topics/"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://news.google.com/",
+            "https://news.google.com/search?"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://news.google.com/articles/",
+            "https://news.google.com/publications/",
+            "https://news.google.com/stories/",
+            "https://news.google.com/topics/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230802212823",
+    "rule_changes": [
+      {
+        "user_agent": "Googlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://news.google.com/atom/",
+            "https://news.google.com/rss/"
+          ]
+        }
+      }
+    ]
+  }
+]

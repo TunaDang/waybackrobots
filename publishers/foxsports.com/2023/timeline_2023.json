@@ -1,0 +1,167 @@
+[
+  {
+    "timestamp": "20230101003227",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230608175706",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230608182710",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230608234325",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230609000547"
+  },
+  {
+    "timestamp": "20230609045525",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230609051654",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230609054711",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230609075458",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230609080035",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230619221815",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230619221816",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230620092022",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230620112209",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230925122444",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230925143645",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://foxsports.com/foxbox/",
+            "https://foxsports.com/maintenance/"
+          ]
+        }
+      }
+    ]
+  }
+]
