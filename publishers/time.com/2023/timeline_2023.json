@@ -1,0 +1,338 @@
+[
+  {
+    "timestamp": "20230101005938",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://time.com/wp-admin/admin-ajax.php"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://time.com/wp-admin/"
+          ]
+        }
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://time.com/*/munich/index_html*",
+            "https://time.com/*?*/*ref",
+            "https://time.com/*?*002/*0902",
+            "https://time.com/*?*2\u0026hubs_content",
+            "https://time.com/*?*PageSpeed",
+            "https://time.com/*?*__hsfp",
+            "https://time.com/*?*__hstc",
+            "https://time.com/*?*__rmid",
+            "https://time.com/*?*__rmidpage",
+            "https://time.com/*?*ajs_event",
+            "https://time.com/*?*app",
+            "https://time.com/*?*attachment_id",
+            "https://time.com/*?*author",
+            "https://time.com/*?*bcpid",
+            "https://time.com/*?*bcpidpage",
+            "https://time.com/*?*cat",
+            "https://time.com/*?*controlsVisibleOnLoad",
+            "https://time.com/*?*country",
+            "https://time.com/*?*curator",
+            "https://time.com/*?*edition",
+            "https://time.com/*?*egotecpage",
+            "https://time.com/*?*fbclid",
+            "https://time.com/*?*hl",
+            "https://time.com/*?*hsCtaTracking",
+            "https://time.com/*?*hubs_signup-cta",
+            "https://time.com/*?*iframe",
+            "https://time.com/*?*iid",
+            "https://time.com/*?*industry",
+            "https://time.com/*?*inline-read-more",
+            "https://time.com/*?*kwp_4",
+            "https://time.com/*?*library",
+            "https://time.com/*?*limit",
+            "https://time.com/*?*linkId",
+            "https://time.com/*?*luicode",
+            "https://time.com/*?*ntv_a",
+            "https://time.com/*?*offset",
+            "https://time.com/*?*omnil",
+            "https://time.com/*?*onwardjourney",
+            "https://time.com/*?*origin",
+            "https://time.com/*?*page",
+            "https://time.com/*?*plan",
+            "https://time.com/*?*poy-poll",
+            "https://time.com/*?*prx_t",
+            "https://time.com/*?*ref",
+            "https://time.com/*?*reviews_page",
+            "https://time.com/*?*scrape",
+            "https://time.com/*?*scriptPath",
+            "https://time.com/*?*source",
+            "https://time.com/*?*sr_source",
+            "https://time.com/*?*subscription",
+            "https://time.com/*?*ua",
+            "https://time.com/*?*utm",
+            "https://time.com/*?*utm_campaign",
+            "https://time.com/*?*utm_medium",
+            "https://time.com/*?*utm_source",
+            "https://time.com/*?*xid",
+            "https://time.com/*?*yyyy",
+            "https://time.com/*?EGOTECpage",
+            "https://time.com/*?__rmid___get___page",
+            "https://time.com/*?bclid=",
+            "https://time.com/*?bcpid=",
+            "https://time.com/*?bctid=",
+            "https://time.com/*?hc_location",
+            "https://time.com/*?pagespeed",
+            "https://time.com/*?ref=",
+            "https://time.com/*?ref=binfind.com",
+            "https://time.com/*?sa=",
+            "https://time.com/*?search",
+            "https://time.com/?search*",
+            "https://time.com/feed",
+            "https://time.com/nextadvisor/search/*",
+            "https://time.com/page/*/?a_aid=",
+            "https://time.com/page/*/?egotecpage",
+            "https://time.com/page/*/?hc_location=",
+            "https://time.com/page/*/?iq_id=",
+            "https://time.com/page/*/?pcd=",
+            "https://time.com/page/*/?search=",
+            "https://time.com/search/?q=*",
+            "https://time.com/time_tout/*",
+            "https://time.com/uncategorized",
+            "https://time.com/wp-admin/*",
+            "https://time.com/wp-login/*"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231031155638",
+    "agents_added": [
+      "GPTBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://time.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231213190343",
+    "agents_removed": [
+      "GPTBot",
+      "Googlebot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://time.com/wp-admin/admin-ajax.php/"
+          ],
+          "removed": [
+            "https://time.com/wp-admin/admin-ajax.php"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://time.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231213210018",
+    "agents_added": [
+      "GPTBot",
+      "Googlebot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Googlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://time.com/*/munich/index_html*",
+            "https://time.com/*?*/*ref",
+            "https://time.com/*?*002/*0902",
+            "https://time.com/*?*2\u0026hubs_content",
+            "https://time.com/*?*PageSpeed",
+            "https://time.com/*?*__hsfp",
+            "https://time.com/*?*__hstc",
+            "https://time.com/*?*__rmid",
+            "https://time.com/*?*__rmidpage",
+            "https://time.com/*?*ajs_event",
+            "https://time.com/*?*app",
+            "https://time.com/*?*attachment_id",
+            "https://time.com/*?*author",
+            "https://time.com/*?*bcpid",
+            "https://time.com/*?*bcpidpage",
+            "https://time.com/*?*cat",
+            "https://time.com/*?*controlsVisibleOnLoad",
+            "https://time.com/*?*country",
+            "https://time.com/*?*curator",
+            "https://time.com/*?*edition",
+            "https://time.com/*?*egotecpage",
+            "https://time.com/*?*fbclid",
+            "https://time.com/*?*hl",
+            "https://time.com/*?*hsCtaTracking",
+            "https://time.com/*?*hubs_signup-cta",
+            "https://time.com/*?*iframe",
+            "https://time.com/*?*iid",
+            "https://time.com/*?*industry",
+            "https://time.com/*?*inline-read-more",
+            "https://time.com/*?*kwp_4",
+            "https://time.com/*?*library",
+            "https://time.com/*?*limit",
+            "https://time.com/*?*linkId",
+            "https://time.com/*?*luicode",
+            "https://time.com/*?*ntv_a",
+            "https://time.com/*?*offset",
+            "https://time.com/*?*omnil",
+            "https://time.com/*?*onwardjourney",
+            "https://time.com/*?*origin",
+            "https://time.com/*?*page",
+            "https://time.com/*?*plan",
+            "https://time.com/*?*poy-poll",
+            "https://time.com/*?*prx_t",
+            "https://time.com/*?*ref",
+            "https://time.com/*?*reviews_page",
+            "https://time.com/*?*scrape",
+            "https://time.com/*?*scriptPath",
+            "https://time.com/*?*source",
+            "https://time.com/*?*sr_source",
+            "https://time.com/*?*subscription",
+            "https://time.com/*?*ua",
+            "https://time.com/*?*utm",
+            "https://time.com/*?*utm_campaign",
+            "https://time.com/*?*utm_medium",
+            "https://time.com/*?*utm_source",
+            "https://time.com/*?*xid",
+            "https://time.com/*?*yyyy",
+            "https://time.com/*?EGOTECpage",
+            "https://time.com/*?__rmid___get___page",
+            "https://time.com/*?bclid=",
+            "https://time.com/*?bcpid=",
+            "https://time.com/*?bctid=",
+            "https://time.com/*?hc_location",
+            "https://time.com/*?pagespeed",
+            "https://time.com/*?ref=",
+            "https://time.com/*?ref=binfind.com",
+            "https://time.com/*?sa=",
+            "https://time.com/*?search",
+            "https://time.com/?search*",
+            "https://time.com/feed",
+            "https://time.com/nextadvisor/search/*",
+            "https://time.com/page/*/?a_aid=",
+            "https://time.com/page/*/?egotecpage",
+            "https://time.com/page/*/?hc_location=",
+            "https://time.com/page/*/?iq_id=",
+            "https://time.com/page/*/?pcd=",
+            "https://time.com/page/*/?search=",
+            "https://time.com/search/?q=*",
+            "https://time.com/time_tout/*",
+            "https://time.com/uncategorized",
+            "https://time.com/wp-admin/*",
+            "https://time.com/wp-login/*"
+          ]
+        }
+      },
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://time.com/"
+          ]
+        }
+      },
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://time.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231213224534",
+    "rule_changes": [
+      {
+        "user_agent": "Googlebot",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://time.com/*?*ntv_a",
+            "https://time.com/*?*prx_t"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231215195519",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://time.com/wp-admin/admin-ajax.php"
+          ],
+          "removed": [
+            "https://time.com/wp-admin/admin-ajax.php/"
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://time.com/*?*ntv_a",
+            "https://time.com/*?*prx_t"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231219180225",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://time.com/wp-admin/admin-ajax.php/"
+          ],
+          "removed": [
+            "https://time.com/wp-admin/admin-ajax.php"
+          ]
+        },
+        "disallow": {}
+      },
+      {
+        "user_agent": "Googlebot",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://time.com/*?*ntv_a",
+            "https://time.com/*?*prx_t"
+          ]
+        }
+      }
+    ]
+  }
+]

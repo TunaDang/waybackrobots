@@ -38,27 +38,70 @@ func main() {
 	timeline := flag.Bool("timeline", false, "show a timeline of changes in robots.txt")
 	year := flag.Int("year", 0, "specify a year to fetch timeline changes for (e.g., 2023). Overrides -limit and -recent.")
 	outputDir := flag.String("output", "", "directory to save JSON and raw .txt output")
+	concurrentDomains := flag.Int("concurrent", 5, "number of domains to process concurrently")
 	flag.Parse()
 
+	var urls []string
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
-		u, err := cleanURL(scanner.Text())
-		if err != nil {
-			continue
-		}
-
-		if !*timeline {
-			// Original functionality
-			processURL(u, *versionsLimit, *recent, *outputDir)
-		} else {
-			// New timeline functionality
-			createTimeline(u, *versionsLimit, *recent, *year, *outputDir)
-		}
+		urls = append(urls, scanner.Text())
 	}
 
 	if err := scanner.Err(); err != nil {
 		fmt.Fprintf(os.Stderr, "Error reading URLs from stdin: %v\n", err)
 		os.Exit(1)
+	}
+
+	jobs := make(chan string, len(urls))
+	var wg sync.WaitGroup
+
+	// Start workers
+	for i := 0; i < *concurrentDomains; i++ {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for rawURL := range jobs {
+				processDomain(rawURL, *versionsLimit, *recent, *timeline, *year, *outputDir)
+			}
+		}()
+	}
+
+	// Send jobs
+	for _, u := range urls {
+		jobs <- u
+	}
+	close(jobs)
+
+	// Wait for all workers to finish
+	wg.Wait()
+}
+
+func processDomain(rawURL string, versionsLimit int, recent bool, timeline bool, year int, outputDir string) {
+	u, err := cleanURL(rawURL)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error cleaning URL %s: %v\n", rawURL, err)
+		return
+	}
+
+	// If output directory and year are specified, check if work has already been done.
+	if outputDir != "" && year > 0 {
+		domain := getHost(u)
+		yearStr := strconv.Itoa(year)
+		publisherYearPath := filepath.Join(outputDir, domain, yearStr)
+
+		if _, err := os.Stat(publisherYearPath); !os.IsNotExist(err) {
+			// The directory exists, so we assume the work is done.
+			fmt.Fprintf(os.Stderr, "Output folder for %s/%s already exists, skipping.\n", domain, yearStr)
+			return // Skip this domain
+		}
+	}
+
+	if !timeline {
+		// Original functionality
+		processURL(u, versionsLimit, recent, outputDir)
+	} else {
+		// New timeline functionality
+		createTimeline(u, versionsLimit, recent, year, outputDir)
 	}
 }
 
@@ -371,203 +414,203 @@ func writePathsJSON(u string, paths map[string]bool, outputDir string) {
 // writeTimelineOutput handles writing both the JSON delta file and the raw
 // robots.txt files for the specified year.
 func writeTimelineOutput(u string, versionContents []VersionContent, year int, outputDir string) {
-    if len(versionContents) == 0 {
-        fmt.Fprintf(os.Stderr, "No versions to write for %s\n", u)
-        return
-    }
+	if len(versionContents) == 0 {
+		fmt.Fprintf(os.Stderr, "No versions to write for %s\n", u)
+		return
+	}
 
-    domain := getHost(u)
-    var dirPath string
-    var jsonFileName string
+	domain := getHost(u)
+	var dirPath string
+	var jsonFileName string
 
-    if year > 0 {
-        dirPath = filepath.Join(outputDir, domain, strconv.Itoa(year))
-        jsonFileName = fmt.Sprintf("timeline_%d.json", year)
-    } else {
-        dirPath = filepath.Join(outputDir, domain)
-        jsonFileName = "timeline.json"
-    }
+	if year > 0 {
+		dirPath = filepath.Join(outputDir, domain, strconv.Itoa(year))
+		jsonFileName = fmt.Sprintf("timeline_%d.json", year)
+	} else {
+		dirPath = filepath.Join(outputDir, domain)
+		jsonFileName = "timeline.json"
+	}
 
-    if err := os.MkdirAll(dirPath, 0755); err != nil {
-        fmt.Fprintf(os.Stderr, "Error creating directory %s: %v\n", dirPath, err)
-        return
-    }
+	if err := os.MkdirAll(dirPath, 0755); err != nil {
+		fmt.Fprintf(os.Stderr, "Error creating directory %s: %v\n", dirPath, err)
+		return
+	}
 
-    // --- Structs for JSON output ---
-    type changeSet struct {
-        Added   []string `json:"added,omitempty"`
-        Removed []string `json:"removed,omitempty"`
-    }
-    type ruleChange struct {
-        UserAgent string    `json:"user_agent"`
-        Allow     changeSet `json:"allow,omitempty"`
-        Disallow  changeSet `json:"disallow,omitempty"`
-    }
-    type timelineEntry struct {
-        Timestamp      string       `json:"timestamp"`
-        AgentsAdded    []string     `json:"agents_added,omitempty"`
-        AgentsRemoved  []string     `json:"agents_removed,omitempty"`
-        RuleChanges    []ruleChange `json:"rule_changes,omitempty"`
-        InitialContent []ruleChange `json:"initial_content,omitempty"`
-    }
+	// --- Structs for JSON output ---
+	type changeSet struct {
+		Added   []string `json:"added,omitempty"`
+		Removed []string `json:"removed,omitempty"`
+	}
+	type ruleChange struct {
+		UserAgent string    `json:"user_agent"`
+		Allow     changeSet `json:"allow,omitempty"`
+		Disallow  changeSet `json:"disallow,omitempty"`
+	}
+	type timelineEntry struct {
+		Timestamp      string       `json:"timestamp"`
+		AgentsAdded    []string     `json:"agents_added,omitempty"`
+		AgentsRemoved  []string     `json:"agents_removed,omitempty"`
+		RuleChanges    []ruleChange `json:"rule_changes,omitempty"`
+		InitialContent []ruleChange `json:"initial_content,omitempty"`
+	}
 
-    var timeline []timelineEntry
-    var previousRules AgentRules
-    filesToZip := make(map[string]string) // K: filename, V: content
+	var timeline []timelineEntry
+	var previousRules AgentRules
+	filesToZip := make(map[string]string) // K: filename, V: content
 
-    // --- Process versions to find changes and collect files to zip ---
-    for _, vc := range versionContents {
-        entry := timelineEntry{Timestamp: vc.Timestamp}
-        hasChanges := false
+	// --- Process versions to find changes and collect files to zip ---
+	for _, vc := range versionContents {
+		entry := timelineEntry{Timestamp: vc.Timestamp}
+		hasChanges := false
 
-        if previousRules == nil {
-            // --- Initial version (for JSON) ---
-            hasChanges = true // The first entry is always included in the timeline
-            for agent, rules := range vc.Rules {
-                allows := []string{}
-                disallows := []string{}
-                for path, directive := range rules {
-                    if directive == "allow" {
-                        allows = append(allows, path)
-                    } else {
-                        disallows = append(disallows, path)
-                    }
-                }
-                sort.Strings(allows)
-                sort.Strings(disallows)
-                change := ruleChange{UserAgent: agent}
-                if len(allows) > 0 {
-                    change.Allow.Added = allows
-                }
-                if len(disallows) > 0 {
-                    change.Disallow.Added = disallows
-                }
-                entry.InitialContent = append(entry.InitialContent, change)
-            }
-        } else {
-            // --- Compare with previous version (for JSON and raw file logic) ---
-            // Find added agents
-            for agent, rules := range vc.Rules {
-                if _, exists := previousRules[agent]; !exists {
-                    entry.AgentsAdded = append(entry.AgentsAdded, agent)
-                    // also list the initial rules for the new agent
-                    allows := []string{}
-                    disallows := []string{}
-                    for path, directive := range rules {
-                        if directive == "allow" {
-                            allows = append(allows, path)
-                        } else {
-                            disallows = append(disallows, path)
-                        }
-                    }
-                    sort.Strings(allows)
-                    sort.Strings(disallows)
-                    change := ruleChange{UserAgent: agent}
-                    if len(allows) > 0 {
-                        change.Allow.Added = allows
-                    }
-                    if len(disallows) > 0 {
-                        change.Disallow.Added = disallows
-                    }
-                    entry.RuleChanges = append(entry.RuleChanges, change)
-                    hasChanges = true
-                }
-            }
-            sort.Strings(entry.AgentsAdded)
+		if previousRules == nil {
+			// --- Initial version (for JSON) ---
+			hasChanges = true // The first entry is always included in the timeline
+			for agent, rules := range vc.Rules {
+				allows := []string{}
+				disallows := []string{}
+				for path, directive := range rules {
+					if directive == "allow" {
+						allows = append(allows, path)
+					} else {
+						disallows = append(disallows, path)
+					}
+				}
+				sort.Strings(allows)
+				sort.Strings(disallows)
+				change := ruleChange{UserAgent: agent}
+				if len(allows) > 0 {
+					change.Allow.Added = allows
+				}
+				if len(disallows) > 0 {
+					change.Disallow.Added = disallows
+				}
+				entry.InitialContent = append(entry.InitialContent, change)
+			}
+		} else {
+			// --- Compare with previous version (for JSON and raw file logic) ---
+			// Find added agents
+			for agent, rules := range vc.Rules {
+				if _, exists := previousRules[agent]; !exists {
+					entry.AgentsAdded = append(entry.AgentsAdded, agent)
+					// also list the initial rules for the new agent
+					allows := []string{}
+					disallows := []string{}
+					for path, directive := range rules {
+						if directive == "allow" {
+							allows = append(allows, path)
+						} else {
+							disallows = append(disallows, path)
+						}
+					}
+					sort.Strings(allows)
+					sort.Strings(disallows)
+					change := ruleChange{UserAgent: agent}
+					if len(allows) > 0 {
+						change.Allow.Added = allows
+					}
+					if len(disallows) > 0 {
+						change.Disallow.Added = disallows
+					}
+					entry.RuleChanges = append(entry.RuleChanges, change)
+					hasChanges = true
+				}
+			}
+			sort.Strings(entry.AgentsAdded)
 
-            // Find removed agents
-            for agent := range previousRules {
-                if _, exists := vc.Rules[agent]; !exists {
-                    entry.AgentsRemoved = append(entry.AgentsRemoved, agent)
-                    hasChanges = true
-                }
-            }
-            sort.Strings(entry.AgentsRemoved)
+			// Find removed agents
+			for agent := range previousRules {
+				if _, exists := vc.Rules[agent]; !exists {
+					entry.AgentsRemoved = append(entry.AgentsRemoved, agent)
+					hasChanges = true
+				}
+			}
+			sort.Strings(entry.AgentsRemoved)
 
-            // Find rule changes for existing agents
-            for agent, currentRules := range vc.Rules {
-                if prevAgentRules, exists := previousRules[agent]; exists {
-                    addedAllows, removedAllows, addedDisallows, removedDisallows := diffRuleSets(currentRules, prevAgentRules)
+			// Find rule changes for existing agents
+			for agent, currentRules := range vc.Rules {
+				if prevAgentRules, exists := previousRules[agent]; exists {
+					addedAllows, removedAllows, addedDisallows, removedDisallows := diffRuleSets(currentRules, prevAgentRules)
 
-                    if len(addedAllows) > 0 || len(removedAllows) > 0 || len(addedDisallows) > 0 || len(removedDisallows) > 0 {
-                        change := ruleChange{UserAgent: agent}
-                        change.Allow = changeSet{Added: addedAllows, Removed: removedAllows}
-                        change.Disallow = changeSet{Added: addedDisallows, Removed: removedDisallows}
-                        entry.RuleChanges = append(entry.RuleChanges, change)
-                        hasChanges = true
-                    }
-                }
-            }
-        }
+					if len(addedAllows) > 0 || len(removedAllows) > 0 || len(addedDisallows) > 0 || len(removedDisallows) > 0 {
+						change := ruleChange{UserAgent: agent}
+						change.Allow = changeSet{Added: addedAllows, Removed: removedAllows}
+						change.Disallow = changeSet{Added: addedDisallows, Removed: removedDisallows}
+						entry.RuleChanges = append(entry.RuleChanges, change)
+						hasChanges = true
+					}
+				}
+			}
+		}
 
-        // --- Collect raw .txt file content if this is the first one or if there are changes ---
-        if (previousRules == nil || hasChanges) && vc.RawContent != "" {
-            if year > 0 {
-                // If year is specified, add to zip map instead of writing directly
-                fileName := fmt.Sprintf("robots_%s.txt", vc.Timestamp)
-                filesToZip[fileName] = vc.RawContent
-            } else {
-                // Original behavior: write individual files if not using -year
-                rawFileName := fmt.Sprintf("robots_%s.txt", vc.Timestamp)
-                rawFilePath := filepath.Join(dirPath, rawFileName)
-                err := ioutil.WriteFile(rawFilePath, []byte(vc.RawContent), 0644)
-                if err != nil {
-                    fmt.Fprintf(os.Stderr, "Error writing raw file %s: %v\n", rawFilePath, err)
-                }
-            }
-        }
+		// --- Collect raw .txt file content if this is the first one or if there are changes ---
+		if (previousRules == nil || hasChanges) && vc.RawContent != "" {
+			if year > 0 {
+				// If year is specified, add to zip map instead of writing directly
+				fileName := fmt.Sprintf("robots_%s.txt", vc.Timestamp)
+				filesToZip[fileName] = vc.RawContent
+			} else {
+				// Original behavior: write individual files if not using -year
+				rawFileName := fmt.Sprintf("robots_%s.txt", vc.Timestamp)
+				rawFilePath := filepath.Join(dirPath, rawFileName)
+				err := ioutil.WriteFile(rawFilePath, []byte(vc.RawContent), 0644)
+				if err != nil {
+					fmt.Fprintf(os.Stderr, "Error writing raw file %s: %v\n", rawFilePath, err)
+				}
+			}
+		}
 
-        if hasChanges {
-            timeline = append(timeline, entry)
-        }
-        previousRules = vc.Rules
-    }
+		if hasChanges {
+			timeline = append(timeline, entry)
+		}
+		previousRules = vc.Rules
+	}
 
-    // --- Write the collected .txt files to a zip archive if year is specified ---
-    if year > 0 && len(filesToZip) > 0 {
-        zipFileName := fmt.Sprintf("robots_txt_%d.zip", year)
-        zipFilePath := filepath.Join(dirPath, zipFileName)
-        zipFile, err := os.Create(zipFilePath)
-        if err != nil {
-            fmt.Fprintf(os.Stderr, "Error creating zip file %s: %v\n", zipFilePath, err)
-            return
-        }
-        defer zipFile.Close()
+	// --- Write the collected .txt files to a zip archive if year is specified ---
+	if year > 0 && len(filesToZip) > 0 {
+		zipFileName := fmt.Sprintf("robots_txt_%d.zip", year)
+		zipFilePath := filepath.Join(dirPath, zipFileName)
+		zipFile, err := os.Create(zipFilePath)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Error creating zip file %s: %v\n", zipFilePath, err)
+			return
+		}
+		defer zipFile.Close()
 
-        zipWriter := zip.NewWriter(zipFile)
-        defer zipWriter.Close()
+		zipWriter := zip.NewWriter(zipFile)
+		defer zipWriter.Close()
 
-        for name, content := range filesToZip {
-            f, err := zipWriter.Create(name)
-            if err != nil {
-                fmt.Fprintf(os.Stderr, "Error adding file %s to zip: %v\n", name, err)
-                continue
-            }
-            _, err = f.Write([]byte(content))
-            if err != nil {
-                fmt.Fprintf(os.Stderr, "Error writing content for file %s to zip: %v\n", name, err)
-                continue
-            }
-        }
-        fmt.Fprintf(os.Stderr, "Wrote %d txt files to %s\n", len(filesToZip), zipFilePath)
-    }
+		for name, content := range filesToZip {
+			f, err := zipWriter.Create(name)
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "Error adding file %s to zip: %v\n", name, err)
+				continue
+			}
+			_, err = f.Write([]byte(content))
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "Error writing content for file %s to zip: %v\n", name, err)
+				continue
+			}
+		}
+		fmt.Fprintf(os.Stderr, "Wrote %d txt files to %s\n", len(filesToZip), zipFilePath)
+	}
 
-    // --- Write the JSON timeline.json file ---
-    jsonFilePath := filepath.Join(dirPath, jsonFileName)
-    file, err := os.Create(jsonFilePath)
-    if err != nil {
-        fmt.Fprintf(os.Stderr, "Error creating file %s: %v\n", jsonFilePath, err)
-        return
-    }
-    defer file.Close()
+	// --- Write the JSON timeline.json file ---
+	jsonFilePath := filepath.Join(dirPath, jsonFileName)
+	file, err := os.Create(jsonFilePath)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error creating file %s: %v\n", jsonFilePath, err)
+		return
+	}
+	defer file.Close()
 
-    encoder := json.NewEncoder(file)
-    encoder.SetIndent("", "  ")
-    if err := encoder.Encode(timeline); err != nil {
-        fmt.Fprintf(os.Stderr, "Error writing JSON to %s: %v\n", jsonFilePath, err)
-    } else {
-        fmt.Fprintf(os.Stderr, "Wrote timeline to %s\n", jsonFilePath)
-    }
+	encoder := json.NewEncoder(file)
+	encoder.SetIndent("", "  ")
+	if err := encoder.Encode(timeline); err != nil {
+		fmt.Fprintf(os.Stderr, "Error writing JSON to %s: %v\n", jsonFilePath, err)
+	} else {
+		fmt.Fprintf(os.Stderr, "Wrote timeline to %s\n", jsonFilePath)
+	}
 }
 
 func GetRobotsTxtVersions(url string, limit int, recent bool, year int) ([]string, error) {
@@ -764,7 +807,7 @@ func mergeURLPath(baseURL, path string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	
+
 	resolvedURL := base.ResolveReference(pathURL)
 	return resolvedURL.String(), nil
 }
@@ -791,7 +834,7 @@ func cleanURL(baseURL string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	
+
 	scheme := "https" // Default
 	if originalURL.Scheme != "" {
 		scheme = originalURL.Scheme

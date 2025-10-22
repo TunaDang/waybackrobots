@@ -1,0 +1,16 @@
+nytimes.com
+forbes.com
+cnn.com
+espn.com
+time.com
+foxnews.com
+people.com
+msn.com
+usatoday.com
+finance.yahoo.com
+bbc.com
+nypost.com
+nbcnews.com
+news.google.com
+apnews.com
+cnbc.com

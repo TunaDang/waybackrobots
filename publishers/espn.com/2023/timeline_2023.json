@@ -1,0 +1,398 @@
+[
+  {
+    "timestamp": "20230101000129",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://espn.com/*\u0026platform=amp",
+            "https://espn.com/*/platform/amp*",
+            "https://espn.com/*?platform=amp"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://*",
+            "https://espn.com/*\u0026_slug_=*",
+            "https://espn.com/*\u0026action=login",
+            "https://espn.com/*\u0026full=",
+            "https://espn.com/*\u0026order=",
+            "https://espn.com/*\u0026photoId=",
+            "https://espn.com/*\u0026platform=",
+            "https://espn.com/*\u0026sort=*",
+            "https://espn.com/*\u0026wsVar=*",
+            "https://espn.com/*\u0026xhr=1",
+            "https://espn.com/*.co.uk",
+            "https://espn.com/*.com",
+            "https://espn.com/*.net",
+            "https://espn.com/*.org",
+            "https://espn.com/*/_/*/year/",
+            "https://espn.com/*/_/scoreboard/",
+            "https://espn.com/*/_/week/",
+            "https://espn.com/*/admin/",
+            "https://espn.com/*/boxscore?",
+            "https://espn.com/*/calendar/",
+            "https://espn.com/*/cat/",
+            "https://espn.com/*/channels/*",
+            "https://espn.com/*/child/*",
+            "https://espn.com/*/conversation/",
+            "https://espn.com/*/conversation?",
+            "https://espn.com/*/conversations/",
+            "https://espn.com/*/conversations?",
+            "https://espn.com/*/crossdomain/*",
+            "https://espn.com/*/databaseresults/",
+            "https://espn.com/*/date/",
+            "https://espn.com/*/deportes/",
+            "https://espn.com/*/fighter/history",
+            "https://espn.com/*/fighter/stats",
+            "https://espn.com/*/flash/",
+            "https://espn.com/*/login/",
+            "https://espn.com/*/login?",
+            "https://espn.com/*/makecorsrequest/*",
+            "https://espn.com/*/message/*",
+            "https://espn.com/*/modifier/*",
+            "https://espn.com/*/null",
+            "https://espn.com/*/null/*",
+            "https://espn.com/*/om-navmethod/*",
+            "https://espn.com/*/order/",
+            "https://espn.com/*/photoId/",
+            "https://espn.com/*/platform/*",
+            "https://espn.com/*/playbyplay?",
+            "https://espn.com/*/player/advancedstats",
+            "https://espn.com/*/player/batvspitch",
+            "https://espn.com/*/player/hollinger",
+            "https://espn.com/*/player/matches",
+            "https://espn.com/*/player/news",
+            "https://espn.com/*/player/splits",
+            "https://espn.com/*/player/stats",
+            "https://espn.com/*/print?id",
+            "https://espn.com/*/printschedule/",
+            "https://espn.com/*/season/200",
+            "https://espn.com/*/seasontype/",
+            "https://espn.com/*/sort/*",
+            "https://espn.com/*/split/",
+            "https://espn.com/*/start/",
+            "https://espn.com/*/strategies/*",
+            "https://espn.com/*/swf/",
+            "https://espn.com/*/type/",
+            "https://espn.com/*/undefined",
+            "https://espn.com/*/undefined/*",
+            "https://espn.com/*/units/*",
+            "https://espn.com/*/util/",
+            "https://espn.com/*/utils/*",
+            "https://espn.com/*/view/",
+            "https://espn.com/*/webslices/",
+            "https://espn.com/*/wire?",
+            "https://espn.com/*/year/200",
+            "https://espn.com/*?*::*",
+            "https://espn.com/*?ex_cid=",
+            "https://espn.com/*?innings=",
+            "https://espn.com/*?platform=",
+            "https://espn.com/*?user=",
+            "https://espn.com/*ESPNPlusAdobeTracking/",
+            "https://espn.com/ad/",
+            "https://espn.com/broadband/",
+            "https://espn.com/cgi",
+            "https://espn.com/community/",
+            "https://espn.com/composer/",
+            "https://espn.com/contests/",
+            "https://espn.com/espn/now",
+            "https://espn.com/espnradio/podcast/feeds/easports/",
+            "https://espn.com/football/commentary",
+            "https://espn.com/football/conversation?gameId=*",
+            "https://espn.com/football/lineups",
+            "https://espn.com/football/matchstats",
+            "https://espn.com/football/video",
+            "https://espn.com/index?sport=*\u0026topId=*",
+            "https://espn.com/index?sport=*\u0026type=replay",
+            "https://espn.com/load_video_player/*",
+            "https://espn.com/members/",
+            "https://espn.com/nba/tradeMachine/?tradeId=*",
+            "https://espn.com/personalization/",
+            "https://espn.com/rugby?*",
+            "https://espn.com/soccer/commentary",
+            "https://espn.com/soccer/lineups",
+            "https://espn.com/soccer/matchstats",
+            "https://espn.com/soccer/video",
+            "https://espn.com/sports*/index?topId=*",
+            "https://espn.com/travel/passport/",
+            "https://espn.com/video/clipDeportes",
+            "https://espn.com/video/search",
+            "https://espn.com/watch/*?*country=",
+            "https://espn.com/watch/*?*device=",
+            "https://espn.com/watch/*?*lang=",
+            "https://espn.com/watch/*?*om-navmethod=",
+            "https://espn.com/watch/*?*partner=",
+            "https://espn.com/watch/*?*rb=",
+            "https://espn.com/watch/*?*redirected=",
+            "https://espn.com/watch/*?*search=",
+            "https://espn.com/watch/_/redirected/*"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230305205506",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://espn.com/jayski/tracks/archive/story/_/id/*/*/*"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230415212708",
+    "agents_removed": [
+      "*"
+    ]
+  },
+  {
+    "timestamp": "20230416033442",
+    "initial_content": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://espn.com/*\u0026platform=amp",
+            "https://espn.com/*/platform/amp*",
+            "https://espn.com/*?platform=amp"
+          ]
+        },
+        "disallow": {
+          "added": [
+            "https://*",
+            "https://espn.com/*\u0026_slug_=*",
+            "https://espn.com/*\u0026action=login",
+            "https://espn.com/*\u0026full=",
+            "https://espn.com/*\u0026order=",
+            "https://espn.com/*\u0026photoId=",
+            "https://espn.com/*\u0026platform=",
+            "https://espn.com/*\u0026sort=*",
+            "https://espn.com/*\u0026wsVar=*",
+            "https://espn.com/*\u0026xhr=1",
+            "https://espn.com/*.co.uk",
+            "https://espn.com/*.com",
+            "https://espn.com/*.net",
+            "https://espn.com/*.org",
+            "https://espn.com/*/_/*/year/",
+            "https://espn.com/*/_/scoreboard/",
+            "https://espn.com/*/_/week/",
+            "https://espn.com/*/admin/",
+            "https://espn.com/*/boxscore?",
+            "https://espn.com/*/calendar/",
+            "https://espn.com/*/cat/",
+            "https://espn.com/*/channels/*",
+            "https://espn.com/*/child/*",
+            "https://espn.com/*/conversation/",
+            "https://espn.com/*/conversation?",
+            "https://espn.com/*/conversations/",
+            "https://espn.com/*/conversations?",
+            "https://espn.com/*/crossdomain/*",
+            "https://espn.com/*/databaseresults/",
+            "https://espn.com/*/date/",
+            "https://espn.com/*/deportes/",
+            "https://espn.com/*/fighter/history",
+            "https://espn.com/*/fighter/stats",
+            "https://espn.com/*/flash/",
+            "https://espn.com/*/login/",
+            "https://espn.com/*/login?",
+            "https://espn.com/*/makecorsrequest/*",
+            "https://espn.com/*/message/*",
+            "https://espn.com/*/modifier/*",
+            "https://espn.com/*/null",
+            "https://espn.com/*/null/*",
+            "https://espn.com/*/om-navmethod/*",
+            "https://espn.com/*/order/",
+            "https://espn.com/*/photoId/",
+            "https://espn.com/*/platform/*",
+            "https://espn.com/*/playbyplay?",
+            "https://espn.com/*/player/advancedstats",
+            "https://espn.com/*/player/batvspitch",
+            "https://espn.com/*/player/hollinger",
+            "https://espn.com/*/player/matches",
+            "https://espn.com/*/player/news",
+            "https://espn.com/*/player/splits",
+            "https://espn.com/*/player/stats",
+            "https://espn.com/*/print?id",
+            "https://espn.com/*/printschedule/",
+            "https://espn.com/*/season/200",
+            "https://espn.com/*/seasontype/",
+            "https://espn.com/*/sort/*",
+            "https://espn.com/*/split/",
+            "https://espn.com/*/start/",
+            "https://espn.com/*/strategies/*",
+            "https://espn.com/*/swf/",
+            "https://espn.com/*/type/",
+            "https://espn.com/*/undefined",
+            "https://espn.com/*/undefined/*",
+            "https://espn.com/*/units/*",
+            "https://espn.com/*/util/",
+            "https://espn.com/*/utils/*",
+            "https://espn.com/*/view/",
+            "https://espn.com/*/webslices/",
+            "https://espn.com/*/wire?",
+            "https://espn.com/*/year/200",
+            "https://espn.com/*?*::*",
+            "https://espn.com/*?ex_cid=",
+            "https://espn.com/*?innings=",
+            "https://espn.com/*?platform=",
+            "https://espn.com/*?user=",
+            "https://espn.com/*ESPNPlusAdobeTracking/",
+            "https://espn.com/ad/",
+            "https://espn.com/broadband/",
+            "https://espn.com/cgi",
+            "https://espn.com/community/",
+            "https://espn.com/composer/",
+            "https://espn.com/contests/",
+            "https://espn.com/espn/now",
+            "https://espn.com/espnradio/podcast/feeds/easports/",
+            "https://espn.com/football/commentary",
+            "https://espn.com/football/conversation?gameId=*",
+            "https://espn.com/football/lineups",
+            "https://espn.com/football/matchstats",
+            "https://espn.com/football/video",
+            "https://espn.com/index?sport=*\u0026topId=*",
+            "https://espn.com/index?sport=*\u0026type=replay",
+            "https://espn.com/jayski/tracks/archive/story/_/id/*/*/*",
+            "https://espn.com/load_video_player/*",
+            "https://espn.com/members/",
+            "https://espn.com/nba/tradeMachine/?tradeId=*",
+            "https://espn.com/personalization/",
+            "https://espn.com/rugby?*",
+            "https://espn.com/soccer/commentary",
+            "https://espn.com/soccer/lineups",
+            "https://espn.com/soccer/matchstats",
+            "https://espn.com/soccer/video",
+            "https://espn.com/sports*/index?topId=*",
+            "https://espn.com/travel/passport/",
+            "https://espn.com/video/clipDeportes",
+            "https://espn.com/video/search",
+            "https://espn.com/watch/*?*country=",
+            "https://espn.com/watch/*?*device=",
+            "https://espn.com/watch/*?*lang=",
+            "https://espn.com/watch/*?*om-navmethod=",
+            "https://espn.com/watch/*?*partner=",
+            "https://espn.com/watch/*?*rb=",
+            "https://espn.com/watch/*?*redirected=",
+            "https://espn.com/watch/*?*search=",
+            "https://espn.com/watch/_/redirected/*"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230515172349",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://espn.com/*/_/*/year/",
+            "https://espn.com/*/_/scoreboard/",
+            "https://espn.com/*/_/week/",
+            "https://espn.com/*/fighter/history",
+            "https://espn.com/*/fighter/stats",
+            "https://espn.com/*/player/advancedstats",
+            "https://espn.com/*/player/batvspitch",
+            "https://espn.com/*/player/hollinger",
+            "https://espn.com/*/player/matches",
+            "https://espn.com/*/player/news",
+            "https://espn.com/*/player/splits",
+            "https://espn.com/*/player/stats",
+            "https://espn.com/*/seasontype/",
+            "https://espn.com/*/sort/*",
+            "https://espn.com/*/view/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230817205925",
+    "agents_added": [
+      "claritybot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "claritybot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://espn.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20230824154845",
+    "agents_added": [
+      "GPTBot"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "GPTBot",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://espn.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231003154205",
+    "agents_added": [
+      "Google-Extended"
+    ],
+    "rule_changes": [
+      {
+        "user_agent": "Google-Extended",
+        "allow": {},
+        "disallow": {
+          "added": [
+            "https://espn.com/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231005193119",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {},
+        "disallow": {
+          "removed": [
+            "https://espn.com/*/type/"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "20231113173740",
+    "rule_changes": [
+      {
+        "user_agent": "*",
+        "allow": {
+          "added": [
+            "https://espn.com/.well-known/amphtml/apikey.pub"
+          ]
+        },
+        "disallow": {}
+      }
+    ]
+  }
+]
