@@ -38,7 +38,7 @@ func main() {
 	timeline := flag.Bool("timeline", false, "show a timeline of changes in robots.txt")
 	year := flag.Int("year", 0, "specify a year to fetch timeline changes for (e.g., 2023). Overrides -limit and -recent.")
 	outputDir := flag.String("output", "", "directory to save JSON and raw .txt output")
-	concurrentDomains := flag.Int("concurrent", 5, "number of domains to process concurrently")
+	concurrentDomains := flag.Int("concurrent", 10, "number of domains to process concurrently")
 	flag.Parse()
 
 	var urls []string
