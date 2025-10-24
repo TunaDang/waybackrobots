@@ -1,0 +1,147 @@
+--- Monthly Breakdown by Bot ---
+
+# 2023-01
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2023-02
+  [SEARCH]
+    - Googlebot: 2 publishers
+
+# 2023-03
+  [SEARCH]
+    - Googlebot: 2 publishers
+
+# 2023-04
+  [SEARCH]
+    - Googlebot: 2 publishers
+
+# 2023-05
+  [SEARCH]
+    - Googlebot: 2 publishers
+
+# 2023-06
+  [SEARCH]
+    - Googlebot: 2 publishers
+
+# 2023-07
+  [SEARCH]
+    - Googlebot: 3 publishers
+    - Bingbot: 1 publishers
+
+# 2023-08
+  [GENAI]
+    - GPTBot: 55 publishers
+  [SEARCH]
+    - Googlebot: 3 publishers
+
+# 2023-09
+  [GENAI]
+    - GPTBot: 32 publishers
+  [SEARCH]
+    - Googlebot: 3 publishers
+    - Bingbot: 1 publishers
+
+# 2023-10
+  [GENAI]
+    - GPTBot: 31 publishers
+    - Google-Extended: 26 publishers
+  [SEARCH]
+    - Googlebot: 2 publishers
+
+# 2023-11
+  [GENAI]
+    - GPTBot: 7 publishers
+    - Google-Extended: 6 publishers
+  [SEARCH]
+    - Googlebot: 2 publishers
+    - Bingbot: 1 publishers
+
+# 2023-12
+  [GENAI]
+    - Google-Extended: 38 publishers
+    - GPTBot: 6 publishers
+  [SEARCH]
+    - Googlebot: 3 publishers
+
+# 2024-01
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-02
+  [GENAI]
+    - GPTBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-03
+  [GENAI]
+    - GPTBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-04
+  [GENAI]
+    - PerplexityBot: 1 publishers
+    - GPTBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-05
+  [GENAI]
+    - Google-Extended: 2 publishers
+    - PerplexityBot: 2 publishers
+    - GPTBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-06
+  [GENAI]
+    - GPTBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-07
+  [GENAI]
+    - PerplexityBot: 1 publishers
+    - GPTBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-08
+  [GENAI]
+    - Google-Extended: 1 publishers
+    - GPTBot: 1 publishers
+    - PerplexityBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-09
+  [GENAI]
+    - PerplexityBot: 1 publishers
+    - GPTBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-10
+  [GENAI]
+    - PerplexityBot: 1 publishers
+    - GPTBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-11
+  [GENAI]
+    - PerplexityBot: 1 publishers
+    - GPTBot: 1 publishers
+    - Google-Extended: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers
+
+# 2024-12
+  [GENAI]
+    - Google-Extended: 1 publishers
+    - GPTBot: 1 publishers
+    - PerplexityBot: 1 publishers
+  [SEARCH]
+    - Googlebot: 1 publishers

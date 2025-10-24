@@ -11,6 +11,21 @@ User-agent: Bingbot
 Operator: Microsoft
 Purpose: The main crawler for Microsoft's Bing search engine.
 
+User-agent: DuckAssistBot
+Operator: DuckDuckGo
+Purpose: DuckDuckGo's search crawler for indexing content.
+
+User-agent: YouBot
+Operator: You.com
+Purpose: Search crawler for You.com search engine.
+
+User-agent: TimpiBot
+Operator: Timpi
+Purpose: Search crawler for the Timpi decentralized search engine.
+
+User-agent: Facebookexternalhit 
+Operator: Meta
+Purpose: Facebook's crawler for link previews and content indexing.
 
 ### Generative AI Crawlers (AI Training & Answers)
 These are newer bots that sites may block to prevent their content from being used for AI training or in generative AI answers.
@@ -24,10 +39,82 @@ User-agent: GPTBot
 Operator: OpenAI
 Purpose: This bot scrapes content specifically to train OpenAI's models, including ChatGPT.
 
+User-agent: OAI-SearchBot
+Operator: OpenAI
+Purpose: Used for ChatGPT search feature. Shows webpages as links inside ChatGPT search. NOT used for model training.
+
+User-agent: ChatGPT-User
+Operator: OpenAI
+Purpose: User-driven browsing from ChatGPT and Custom GPTs. Acts after a human click.
+
+User-agent: ChatGPT-User/2.0
+Operator: OpenAI
+Purpose: Updated version of ChatGPT user-driven browsing agent.
+
 User-agent: Claude-SearchBot
 Operator: Anthropic
 Purpose: This bot is used by the AI assistant Claude to fetch real-time information to answer user questions with citations.
 
+User-agent: ClaudeBot
+Operator: Anthropic
+Purpose: Chat citation fetch for Claude AI assistant.
+
+User-agent: anthropic-ai
+Operator: Anthropic
+Purpose: Bulk model training crawler for Anthropic's AI models.
+
+User-agent: claude-web
+Operator: Anthropic
+Purpose: Web-focused crawl for Claude AI.
+
 User-agent: PerplexityBot
 Operator: Perplexity AI
 Purpose: The web crawler for the Perplexity AI search engine. It indexes the web to provide direct, cited answers to user queries.
+
+User-agent: Perplexity-User
+Operator: Perplexity AI
+Purpose: Human-triggered visit from Perplexity AI, acting on user request.
+
+User-agent: Amazonbot
+Operator: Amazon
+Purpose: Amazon's web crawler for AI training and Alexa features.
+
+User-agent: Applebot
+Operator: Apple
+Purpose: Apple's web crawler for Siri and Spotlight search features.
+
+User-agent: Applebot-Extended
+Operator: Apple
+Purpose: Apple's extended crawler for AI training and features.
+
+User-agent: meta-externalagent
+Operator: Meta
+Purpose: Meta's external agent for AI training and content crawling.
+
+User-agent: LinkedInBot
+Operator: LinkedIn
+Purpose: LinkedIn's crawler for link previews and content indexing.
+
+User-agent: Bytespider
+Operator: ByteDance
+Purpose: ByteDance's web crawler for AI training and search features.
+
+User-agent: cohere-ai
+Operator: Cohere
+Purpose: Cohere's web crawler for AI model training.
+
+User-agent: AI2Bot
+Operator: Allen Institute for AI
+Purpose: Research crawler from the Allen Institute for AI.
+
+User-agent: CCBot
+Operator: Common Crawl
+Purpose: Common Crawl's bot that builds large web archives for research and AI training.
+
+User-agent: Diffbot
+Operator: Diffbot
+Purpose: Automated web data extraction bot for AI and machine learning.
+
+User-agent: omgili
+Operator: Omgili
+Purpose: Web crawler for content discovery and indexing.
