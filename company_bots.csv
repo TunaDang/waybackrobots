@@ -1,0 +1,11 @@
+company,name of AI bot,name of search bot
+Google,Google-Extended,Googlebot
+Microsoft,,Bingbot
+OpenAI,GPTBot,OAI-SearchBot
+Anthropic,anthropic-ai,Claude-SearchBot
+Apple,Applebot-Extended,Applebot
+Meta,meta-externalagent,Facebookexternalhit
+Amazon,Amazonbot,
+Perplexity AI,PerplexityBot,
+ByteDance,Bytespider,
+Common Crawl,CCBot,
